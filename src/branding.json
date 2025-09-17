@@ -1,0 +1,25 @@
+{
+  "brandName": "Accelerated Tractor Services",
+  "title": "Land Services",
+  "company": {
+    "name": "Accelerated Tractor Services",
+    "url": "https://acceleratedtractorservices.com/",
+    "socialLink": {
+      "linkedin": "#",
+      "instagram": "#",
+      "facebook": "https://www.facebook.com/AcceleratedTractorServices/",
+      "mail": "mailto:jason@adicompanies.com",
+      "youtube": "#",
+      "github": "#",
+      "dribble": "#",
+      "discord": "#",
+      "support": "tel:+2145325700"
+    }
+  },
+  "logo": {
+    "main": "/assets/svg/logo.svg",
+    "logoIcon": "/assets/svg/logo.svg",
+    "logoFab": "",
+    "logoWatermark": ""
+  }
+}
