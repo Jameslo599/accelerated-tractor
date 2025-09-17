@@ -24,7 +24,7 @@ export default function palette(mode) {
       overlay: '#fff'
     },
     secondary: {
-      lighter: '#D3E4F8', // AI/secondary/90 - secondary container / secondary fixed
+      lighter: '#fafafa', // AI/secondary/90 - secondary container / secondary fixed
       light: '#B7C8DB', // AI/secondary/80 - secondary fixed dim
       main: '#4F6070', // AI/secondary/40 - secondary
       dark: '#384858', // AI/secondary/30 - on secondary fixed variant

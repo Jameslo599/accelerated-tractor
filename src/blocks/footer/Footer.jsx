@@ -170,7 +170,7 @@ export default function Footer() {
             delay: 0.4
           }}
         >
-          <GraphicsCard sx={{ borderRadius: { xs: 6, sm: 8 } }}>
+          <GraphicsCard sx={{ borderRadius: { xs: 6, sm: 8 }, backgroundColor: 'secondary.lighter' }}>
             <Stack
               direction={{ sm: 'row' }}
               sx={{

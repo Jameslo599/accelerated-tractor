@@ -66,19 +66,18 @@ export default function FollowUS({ heading = true, color }) {
             <Avatar
               variant="rounded"
               sx={{
-                color: color || 'grey.200',
+                bgcolor: 'background.default',
                 width: { xs: 40, sm: 52, lg: 56 },
                 height: { xs: 40, sm: 52, lg: 56 },
                 borderRadius: 3,
-                transition: 'color 0.3s',
-                ':hover': { bgcolor: 'grey.300' }
+                '&:hover': { bgcolor: 'divider' }
               }}
             >
               <SvgIcon
                 type={IconType.FILL}
                 {...(typeof item.icon === 'string' ? { name: item.icon } : { ...item.icon })}
                 sx={{
-                  color: '#grey.100',
+                  color: 'grey.100',
                   transition: 'color 0.3s',
                   '&:hover': {
                     color: 'grey.100'
