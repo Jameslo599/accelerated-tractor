@@ -15,7 +15,13 @@ export default function LogoMain() {
   const logoMainPath = branding.logo.main;
 
   return logoMainPath ? (
-    <CardMedia src={logoMainPath} component="img" alt="logo" sx={{ height: { xs: 48, lg: 64 } }} loading="lazy" />
+    <CardMedia
+      src={logoMainPath}
+      component="img"
+      alt="logo"
+      sx={{ width: { xs: 75, lg: 100 }, height: { xs: 48, lg: 64 } }}
+      loading="lazy"
+    />
   ) : (
     <Box sx={{ width: { xs: 112, lg: 140 }, height: { xs: 22, lg: 26 } }}>
       <span className="word-logo">{branding.brandName}</span>
