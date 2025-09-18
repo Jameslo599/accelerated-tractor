@@ -4,8 +4,8 @@ import { ThemeMode } from '@/config';
 /***************************  DEFAULT / AI THEME - PALETTE  ***************************/
 
 export default function palette(mode) {
-  const textPrimary = '#000003'; // AI/neutral/10 - on surface
-  const textSecondary = '#333'; // AI/neutral variant/30 - on surface variant
+  const textPrimary = '#0a0a0a'; // AI/neutral/10 - on surface
+  const textSecondary = '#0f0f0f'; // AI/neutral variant/30 - on surface variant
   const divider = '#C2C7CE'; // AI/neutral variant/80 - outline variant
   const background = '#fbfbfb';
 
@@ -21,7 +21,8 @@ export default function palette(mode) {
       main: '#111f68', // AI/primary/40 - primary
       dark: '#004E98', // AI/primary/30 - on primary fixed variant
       darker: '#001D31', // AI/primary/10 - on primary container / on primary fixed
-      overlay: '#fff'
+      overlay: '#fafafa',
+      orange: '#ff7634'
     },
     secondary: {
       lighter: '#fafafa', // AI/secondary/90 - secondary container / secondary fixed
@@ -60,7 +61,8 @@ export default function palette(mode) {
       main: '#92CCFF', // AI/primary/80 - primary
       dark: '#CCE5FF ', // AI/primary/90 - on primary container / primary fixed
       darker: '#E7F2FF', // AI/primary/95 - on primary container / on primary fixed
-      overlay: '#fbfbfb'
+      overlay: '#fbfbfb',
+      orange: '#cc5500'
     },
     secondary: {
       lighter: '#384858', // AI/secondary/30 - secondary container / on secondary fixed variant

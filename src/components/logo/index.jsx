@@ -21,7 +21,13 @@ export default function LogoSection({ isIcon, sx, to }) {
     <NextLink href={!to ? process.env.NEXT_PUBLIC_BASE_NAME || '/' : to} passHref>
       <ButtonBase
         disableRipple
-        sx={{ ...sx, display: 'block', '&:focus-visible': generateFocusVisibleStyles(theme.palette.primary.main) }}
+        sx={{
+          ...sx,
+          display: 'block',
+          '&:focus-visible': generateFocusVisibleStyles(theme.palette.primary.main),
+          backgroundColor: 'primary.overlay',
+          borderRadius: '0.25rem'
+        }}
         rel="noopener noreferrer"
         aria-label="logo"
       >

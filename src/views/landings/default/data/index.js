@@ -1,9 +1,11 @@
+export { about3 } from './about';
 export { benefit } from './benefit';
 export { clientele, clientele2 } from './clientele';
 export { contactUS } from './contact-us';
 export { cta4, cta5, cta10 } from './cta';
 export { faq } from './faq';
 export { feature, feature7, feature2, feature5, feature18, feature20, feature21, feature23 } from './feature';
+export { gallery4 } from './gallery';
 export { hero } from './hero';
 export { integration } from './integration';
 export { navbar } from './navbar';

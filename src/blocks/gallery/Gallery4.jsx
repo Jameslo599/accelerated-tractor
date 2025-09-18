@@ -130,10 +130,10 @@ export default function Gallery4({ heading, caption, topics, images }) {
     <Stack sx={{ py: SECTION_COMMON_PY }}>
       <Stack sx={{ gap: { xs: 3, sm: 4 } }}>
         <ContainerWrapper>
-          <Typeset {...{ heading, caption, stackProps: { sx: { alignItems: 'center', textAlign: 'center' } } }} />
+          <Typeset {...{ heading, caption, stackProps: { sx: { alignItems: 'center', textAlign: 'center', mt: '2rem' } } }} />
         </ContainerWrapper>
         <Stack sx={slickStyle}>
-          <Box sx={{ maxWidth: 1 }}>
+          {/* <Box sx={{ maxWidth: 1 }}>
             <Tabs
               value={activeTopic}
               onChange={handleChange}
@@ -163,7 +163,7 @@ export default function Gallery4({ heading, caption, topics, images }) {
                 />
               ))}
             </Tabs>
-          </Box>
+          </Box> */}
           <Box sx={{ width: 1, mt: { xs: 2, sm: 3 } }}>
             <Slider {...settings}>
               {galleryData.map((item, index) => (

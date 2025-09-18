@@ -53,6 +53,34 @@ export default function Other1({ heading, description, primaryBtn, sections }) {
         >
           <Typeset {...{ heading, stackProps: { sx: { textAlign: 'center' } } }} />
         </motion.div>
+        <Stack sx={{ gap: 2, alignItems: 'center' }}>
+          <Typography variant="h6" align="left" sx={{ color: 'text.secondary', width: { xs: 1, sm: '80%', md: '65%' } }}>
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{
+                duration: 0.5,
+                delay: 0.3
+              }}
+            >
+              {description}
+            </motion.div>
+          </Typography>
+          <motion.div
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{
+              duration: 0.5,
+              delay: 0.4
+            }}
+          >
+            <ButtonAnimationWrapper>
+              <Button variant="outlined" {...primaryBtn} />
+            </ButtonAnimationWrapper>
+          </motion.div>
+        </Stack>
         <Grid sx={{ flexDirection: { xs: 'column', sm: 'row' } }} container spacing={3}>
           {sections.map((item, index) => (
             <Grid key={index} size={{ sm: 4, md: 4 }}>
@@ -125,34 +153,6 @@ export default function Other1({ heading, description, primaryBtn, sections }) {
             </Grid>
           ))}
         </Grid>
-        <Stack sx={{ gap: 2, alignItems: 'center' }}>
-          <Typography variant="h6" align="center" sx={{ color: 'text.secondary', width: { xs: 1, sm: '80%', md: '65%' } }}>
-            <motion.div
-              initial={{ opacity: 0, y: 15 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{
-                duration: 0.5,
-                delay: 0.3
-              }}
-            >
-              {description}
-            </motion.div>
-          </Typography>
-          <motion.div
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{
-              duration: 0.5,
-              delay: 0.4
-            }}
-          >
-            <ButtonAnimationWrapper>
-              <Button variant="outlined" {...primaryBtn} />
-            </ButtonAnimationWrapper>
-          </motion.div>
-        </Stack>
       </Stack>
     </ContainerWrapper>
   );

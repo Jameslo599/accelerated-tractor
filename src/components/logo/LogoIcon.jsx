@@ -25,7 +25,8 @@ export default function LogoIcon() {
         display: 'block',
         '& svg': {
           display: 'block'
-        }
+        },
+        backgroundColor: 'primary.overlay'
       }}
     >
       {logoIconPath ? (

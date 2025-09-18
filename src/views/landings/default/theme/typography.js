@@ -75,7 +75,7 @@ export default function typography(theme) {
 
     // label - large
     h5: {
-      fontFamily: FONT_INTER,
+      fontFamily: FONT_ROBOTO_SLAB,
       fontWeight: 500,
       fontSize: 22,
       lineHeight: 1.273,

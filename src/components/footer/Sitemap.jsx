@@ -113,14 +113,20 @@ export default function Sitemap({ list, isMenuDesign }) {
       {(list || menuItems).map((item, index) => (
         <Grid key={index} {...item.grid}>
           <Stack sx={{ alignItems: 'flex-start', gap: { md: 3 } }}>
-            <Typography variant="h4">{item.title}</Typography>
+            <Typography color="text.reverse" variant="h4">
+              {item.title}
+            </Typography>
             <MenuList>
               {item?.menu &&
                 item?.menu.map((menu, i) => (
                   <MenuItem
                     key={i}
                     disableRipple
-                    sx={{ ...menuItemStyle, ...(isMenuDesign && { ...theme.typography.caption2, fontWeight: 400, my: 0.25 }) }}
+                    sx={{
+                      ...menuItemStyle,
+                      ...(isMenuDesign && { ...theme.typography.caption2, fontWeight: 400, my: 0.25 }),
+                      color: 'text.reverse'
+                    }}
                     {...(menu.link && { component: NextLink, ...menu.link })}
                     tabIndex={0}
                     aria-label={menu.label}

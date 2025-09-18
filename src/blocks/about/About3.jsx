@@ -33,7 +33,7 @@ export default function About3({ heading, image, description, list }) {
       : `radial-gradient(71.13% 71.13% at 50% 50.07%, ${alpha(grey100, 0)} 0%, ${grey100} 100%)`;
 
   return (
-    <ContainerWrapper sx={{ py: SECTION_COMMON_PY }}>
+    <ContainerWrapper sx={{ py: SECTION_COMMON_PY, backgroundColor: 'primary.orange', borderRadius: '0.5rem' }}>
       <Grid container spacing={{ xs: 2, md: 3 }}>
         <Grid size={{ xs: 12, md: 7 }}>
           <motion.div
@@ -80,14 +80,13 @@ export default function About3({ heading, image, description, list }) {
                 <GraphicsImage
                   image={image}
                   sx={{
-                    height: { xs: 157, sm: 241, md: 372 },
+                    height: '100%',
                     backgroundPositionY: 'top',
                     transform: 'scale(1.1)',
-                    transformOrigin: { xs: 'top', sm: 'top' },
-                    mb: { xs: -1, md: -4 }
+                    transformOrigin: { xs: 'top', sm: 'top' }
                   }}
                 >
-                  <Box sx={{ height: 1, background: gradient }} />
+                  {/* <Box sx={{ height: 1, background: gradient }} /> */}
                 </GraphicsImage>
               </Stack>
             </GraphicsCard>

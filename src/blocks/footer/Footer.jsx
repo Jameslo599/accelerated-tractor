@@ -59,7 +59,7 @@ const data = [
     title: 'Support',
     menu: [
       {
-        label: 'FAQ',
+        label: 'FAQS',
         link: { href: '/faq', ...linkProps }
       },
       {
@@ -135,7 +135,10 @@ export default function Footer() {
         >
           <Grid container spacing={{ xs: 4, md: 3 }}>
             <Grid size={{ xs: 12, md: 6 }}>
-              <Stack direction={{ sm: 'row', md: 'column' }} sx={{ gap: 3, justifyContent: 'space-between', height: 1 }}>
+              <Stack
+                direction={{ sm: 'row', md: 'column' }}
+                sx={{ gap: 3, justifyContent: 'space-between', height: 1, color: 'text.reverse' }}
+              >
                 {logoFollowContent}
                 <Stack>
                   {usefulLinks.map((item, index) => (
@@ -143,7 +146,7 @@ export default function Footer() {
                       {item.icon}
                       <Link
                         variant="body2"
-                        color="text.secondary"
+                        color="text.reverse"
                         href={item.href}
                         target="_blank"
                         rel="noopener noreferrer"

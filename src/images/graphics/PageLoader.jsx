@@ -25,8 +25,18 @@ export default function PageLoader() {
   const commonProps = { disableShrink: true, size: 100, variant: 'determinate', thickness: 4, color: 'primary' };
 
   return (
-    <Stack direction="row" sx={{ position: 'relative', justifyContent: 'center', alignItems: 'center' }}>
-      <Avatar sx={{ width: 65, height: 65, bgcolor: 'primary.lighter', '& .MuiBox-root': { height: 'fit-content', width: 28 } }}>
+    <Stack
+      direction="row"
+      sx={{ position: 'relative', justifyContent: 'center', alignItems: 'center', backgroundColor: 'primary.overlay' }}
+    >
+      <Avatar
+        sx={{
+          width: 65,
+          height: 65,
+          '& .MuiBox-root': { height: 'fit-content', width: 28 },
+          backgroundColor: 'primary.overlay'
+        }}
+      >
         <LogoSection isIcon />
       </Avatar>
       <CircularProgress

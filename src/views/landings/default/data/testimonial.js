@@ -2,7 +2,7 @@ import branding from '@/branding.json';
 
 export const testimonial = {
   heading: 'Our Clients Love Us',
-  caption: `Trusted by thousands of people worldwide, hear how ${branding.brandName} helps bring their projects to life.`,
+  caption: `Trusted by thousands of people in Texas, hear how ${branding.brandName} brought their projects to life.`,
   testimonials: [
     {
       ratings: 5,

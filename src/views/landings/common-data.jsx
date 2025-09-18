@@ -24,9 +24,11 @@ function footerData() {
             size="small"
             sx={{ bgcolor: 'background.default', '& .MuiChip-label': { px: 1.5, py: 0.5 }, '& .MuiChip-icon': { ml: 1.25 } }}
           />
-          <Typography variant="h5">We can take your project from an idea to the marketplace.</Typography>
+          <Typography variant="h5" sx={{ color: 'primary.overlay' }}>
+            We can take your project from an idea to the marketplace.
+          </Typography>
         </Stack>
-        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+        <Typography variant="body2" sx={{ color: 'text.reverse' }}>
           We can package anything and everything, while completely satisfying our clients, markets, people, and the planet.
         </Typography>
       </Stack>
@@ -46,9 +48,11 @@ function bannerData() {
             size="small"
             sx={{ bgcolor: 'background.default', '& .MuiChip-label': { px: 1.5, py: 0.5 }, '& .MuiChip-icon': { ml: 1.25 } }}
           />
-          <Typography variant="h5">The Right Package Makes All the Difference</Typography>
+          <Typography variant="h5" sx={{ color: 'primary.overlay' }}>
+            The Right Package Makes All the Difference
+          </Typography>
         </Stack>
-        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+        <Typography variant="body2" sx={{ color: 'text.reverse' }}>
           Choosing the perfect packaging solution is essential not only for your product’s success but also for creating an exceptional
           experience for your customers. Discover how we empower you to achieve both.
         </Typography>
@@ -61,54 +65,61 @@ function bannerData() {
 
 export const pagesMegamenu = {
   id: 'pages',
-  title: 'Markets',
+  title: 'Services',
   megaMenu: {
     type: MegaMenuType.MEGAMENU4,
-    toggleBtn: { children: 'Markets' },
+    toggleBtn: { children: 'Services' },
     popperWidth: { xs: 860, lg: 1160, xl: 1496 },
     menuItems: [
       {
-        title: 'Beverage',
-        image: '/assets/images/graphics/default/beverage.webp',
+        title: 'Driveways',
+        image: '/assets/images/graphics/default/driveways.webp',
         link: { href: PAGE_PATH.underMaintenance, ...linkProps }
       },
-      { title: 'Food', image: '/assets/images/graphics/default/food.webp', link: { href: PAGE_PATH.underMaintenance, ...linkProps } },
+      { title: 'Grading', image: '/assets/images/graphics/default/grading.webp', link: { href: PAGE_PATH.underMaintenance, ...linkProps } },
       {
-        title: 'Food Service',
-        image: '/assets/images/graphics/default/food-serv.webp',
-        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
-      },
-      {
-        title: 'Home & Garden',
-        image: '/assets/images/graphics/default/gardening.webp',
+        title: 'Clearing',
+        image: '/assets/images/graphics/default/clearing.webp',
         link: { href: PAGE_PATH.underMaintenance, ...linkProps }
       },
       {
-        title: 'Personal Care',
-        image: '/assets/images/graphics/default/personal.webp',
+        title: 'Mowing',
+        image: '/assets/images/graphics/default/mowing.webp',
         link: { href: PAGE_PATH.underMaintenance, ...linkProps }
       },
       {
-        title: 'Healthcare & Pharmaceutical',
-        image: '/assets/images/graphics/default/pharma.webp',
-        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
-      },
-      { title: 'Pet Care', image: '/assets/images/graphics/default/dog.webp', link: { href: PAGE_PATH.underMaintenance, ...linkProps } },
-      { title: 'Beauty', image: '/assets/images/graphics/default/beauty.webp', link: { href: PAGE_PATH.underMaintenance, ...linkProps } },
-      {
-        title: 'E-Commerce',
-        image: '/assets/images/graphics/default/ecomm.webp',
-        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
-      },
-      { title: 'Signage', image: '/assets/images/graphics/default/sign.webp', link: { href: PAGE_PATH.underMaintenance, ...linkProps } },
-      {
-        title: 'Retail & Consumer Goods',
-        image: '/assets/images/graphics/default/commercial.webp',
+        title: 'Building Pads',
+        image: '/assets/images/graphics/default/building-pads.webp',
         link: { href: PAGE_PATH.underMaintenance, ...linkProps }
       },
       {
-        title: 'Contract Manufacturing',
-        image: '/assets/images/graphics/default/contract.webp',
+        title: 'Arenas',
+        image: '/assets/images/graphics/default/arena.webp',
+        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
+      },
+      {
+        title: 'Excavation',
+        image: '/assets/images/graphics/default/excavation.webp',
+        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
+      },
+      {
+        title: 'Demolition',
+        image: '/assets/images/graphics/default/demolition.webp',
+        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
+      },
+      {
+        title: 'Leveling',
+        image: '/assets/images/graphics/default/leveling.webp',
+        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
+      },
+      {
+        title: 'Material Removal',
+        image: '/assets/images/graphics/default/material-removal.webp',
+        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
+      },
+      {
+        title: 'Fence Line Clearing',
+        image: '/assets/images/graphics/default/fence-line-clearing.webp',
         link: { href: PAGE_PATH.underMaintenance, ...linkProps }
       }
     ],
@@ -120,22 +131,17 @@ export const pagesMegamenu = {
 
 export const solutionsMegamenu = {
   id: 'pages',
-  title: 'Solutions',
+  title: 'Industries',
   megaMenu: {
     type: MegaMenuType.MEGAMENU5,
-    toggleBtn: { children: 'Solutions' },
+    toggleBtn: { children: 'Industries' },
     popperWidth: 860,
     menuItems: [
       {
-        title: 'Our Services',
+        title: 'Industries',
         itemsList: [
-          { title: 'CAD & Engineering', link: { href: PAGE_PATH.underMaintenance, ...linkProps } },
-          { title: 'Die-Cutting, Folding & Gluing', link: { href: PAGE_PATH.underMaintenance, ...linkProps } },
-          { title: 'Color Printing', link: { href: PAGE_PATH.underMaintenance, ...linkProps } },
-          { title: 'Private Label & Custom Packaging', link: { href: PAGE_PATH.underMaintenance, ...linkProps } },
-          { title: 'Contract Blister Cards & Packaging', link: { href: PAGE_PATH.underMaintenance, ...linkProps } },
-          { title: 'Graphic Design', link: { href: PAGE_PATH.underMaintenance, ...linkProps } },
-          { title: 'Fulfillment', link: { href: PAGE_PATH.underMaintenance, ...linkProps } }
+          { title: 'Residential', link: { href: PAGE_PATH.underMaintenance, ...linkProps } },
+          { title: 'Commercial', link: { href: PAGE_PATH.underMaintenance, ...linkProps } }
         ]
       }
     ],

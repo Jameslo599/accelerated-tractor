@@ -42,16 +42,16 @@ export default function Testimonial10({ heading, caption, testimonials }) {
           }}
         >
           {testimonials.map((testimonial, index) => (
-            <GraphicsCard key={index} sx={{ borderRadius: { xs: 4, md: 6 } }}>
+            <GraphicsCard key={index} sx={{ borderRadius: { xs: 4, md: 6 }, backgroundColor: 'primary.orange' }}>
               <Stack sx={{ justifyContent: 'space-between', height: 1, gap: 3, p: { xs: 1.5, md: 2 } }}>
                 <Rating {...{ rate: testimonial.ratings, starSize: 16 }} />
                 <Stack sx={{ gap: 1 }}>
                   <Typography variant="subtitle1">{testimonial.title}</Typography>
-                  <Typography sx={{ color: 'text.secondary' }}>{testimonial.review}</Typography>
+                  <Typography sx={{ color: 'text.primary' }}>{testimonial.review}</Typography>
                 </Stack>
                 <Stack sx={{ gap: 0.5 }}>
                   <Typography variant="subtitle1">{testimonial.profile.name}</Typography>
-                  <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                  <Typography variant="body2" sx={{ color: 'text.primary' }}>
                     {testimonial.profile.role}
                   </Typography>
                 </Stack>

@@ -14,11 +14,6 @@ export const navbar = {
     ...linkProps,
     sx: { minWidth: 40, width: 40, height: 40, p: 0 }
   },
-  primaryBtn: { children: 'Contact Us', href: BUY_NOW_URL, ...linkProps },
-  navItems: [
-    { id: 'home', title: 'Home', link: '/' },
-    solutionsMegamenu,
-    pagesMegamenu,
-    { id: 'sustainability', title: 'Sustainability', link: '#' }
-  ]
+  primaryBtn: { children: 'CONTACT US', href: BUY_NOW_URL, ...linkProps },
+  navItems: [{ id: 'home', title: 'Home', link: '/' }, solutionsMegamenu, pagesMegamenu, { id: 'faq', title: 'FAQS', link: '/faq' }]
 };

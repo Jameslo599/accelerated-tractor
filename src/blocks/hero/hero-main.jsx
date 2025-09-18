@@ -97,7 +97,7 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
           zIndex: -1,
           borderBottomLeftRadius: boxRadius,
           borderBottomRightRadius: boxRadius,
-          backgroundImage: 'url(/assets/images/graphics/default/bobcat-tractor.webp)',
+          backgroundImage: 'url(/assets/images/graphics/default/background.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'left',
           backgroundRepeat: 'no-repeat'

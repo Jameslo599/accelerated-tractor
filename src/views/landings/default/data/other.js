@@ -5,80 +5,75 @@ const imagePrefix = '/assets/images/presentation';
 import branding from '@/branding.json';
 
 export const other = {
-  heading: `${branding.brandName} in Every Industry`,
-  description: 'From Mom and Pop stores to Fortune 500 companies, we create value for anyone, anywhere.',
-  primaryBtn: { children: 'Explore all Markets', href: '#' },
+  heading: `OUR SERVICES`,
+  description:
+    'Our expert land clearing contractors use state-of-the-art equipment to prepare your land for development, agriculture, or any project you have in mind. We deliver fast, efficient, and reliable results — giving you a clean slate to build your vision.',
+  primaryBtn: { children: 'CALL US NOW', href: '#' },
   sections: [
     {
       animationDelay: 0.2,
-      title: 'Beverage',
-      image: { light: `${imagePrefix}/beverage2.webp`, dark: `${imagePrefix}/beverage2.webp` },
+      title: 'Driveways',
+      image: { light: `${imagePrefix}/driveways2.webp`, dark: `${imagePrefix}/driveways2.webp` },
       link: '#'
     },
     {
       animationDelay: 0.3,
-      title: 'Food',
-      image: { light: `${imagePrefix}/food2.webp`, dark: `${imagePrefix}/food2.webp` },
+      title: 'Grading',
+      image: { light: `${imagePrefix}/grading2.webp`, dark: `${imagePrefix}/grading2.webp` },
       link: '#'
     },
     {
       animationDelay: 0.4,
-      title: 'Food Service',
-      image: { light: `${imagePrefix}/food-service2.webp`, dark: `${imagePrefix}/food-service2.webp` },
+      title: 'Clearing',
+      image: { light: `${imagePrefix}/clearing2.webp`, dark: `${imagePrefix}/clearing2.webp` },
       link: '#'
     },
     {
       animationDelay: 0.2,
-      title: 'Home & Garden',
-      image: { light: `${imagePrefix}/garden2.webp`, dark: `${imagePrefix}/garden2.webp` },
+      title: 'Mowing',
+      image: { light: `${imagePrefix}/mowing2.webp`, dark: `${imagePrefix}/mowing2.webp` },
       link: '#'
     },
     {
       animationDelay: 0.3,
-      title: 'Personal Care',
-      image: { light: `${imagePrefix}/personal2.webp`, dark: `${imagePrefix}/personal2.webp` },
+      title: 'Building Pads',
+      image: { light: `${imagePrefix}/building-pads2.webp`, dark: `${imagePrefix}/building-pads2.webp` },
       link: '#'
     },
     {
       animationDelay: 0.4,
-      title: 'Healthcare & Pharmaceutical',
-      image: { light: `${imagePrefix}/health2.webp`, dark: `${imagePrefix}/health2.webp` },
+      title: 'Arenas',
+      image: { light: `${imagePrefix}/arena.webp`, dark: `${imagePrefix}/arena.webp` },
       link: '#'
     },
     {
       animationDelay: 0.4,
-      title: 'Pet Care',
-      image: { light: `${imagePrefix}/pet2.webp`, dark: `${imagePrefix}/pet2.webp` },
+      title: 'Excavation',
+      image: { light: `${imagePrefix}/excavation2.webp`, dark: `${imagePrefix}/excavation2.webp` },
       link: '#'
     },
     {
       animationDelay: 0.4,
-      title: 'Beauty',
-      image: { light: `${imagePrefix}/beauty2.webp`, dark: `${imagePrefix}/beauty2.webp` },
+      title: 'Demolition',
+      image: { light: `${imagePrefix}/demolition2.webp`, dark: `${imagePrefix}/demolition2.webp` },
       link: '#'
     },
     {
       animationDelay: 0.4,
-      title: 'E-Commerce',
-      image: { light: `${imagePrefix}/ecomm2.webp`, dark: `${imagePrefix}/ecomm2.webp` },
+      title: 'Leveling',
+      image: { light: `${imagePrefix}/leveling2.webp`, dark: `${imagePrefix}/leveling2.webp` },
       link: '#'
     },
     {
       animationDelay: 0.4,
-      title: 'Signage',
-      image: { light: `${imagePrefix}/sign2.webp`, dark: `${imagePrefix}/sign2.webp` },
+      title: 'Material Removal',
+      image: { light: `${imagePrefix}/material-removal2.webp`, dark: `${imagePrefix}/material-removal2.webp` },
       link: '#'
     },
     {
       animationDelay: 0.4,
-      title: 'Retail & Consumer Goods',
-      image: { light: `${imagePrefix}/retail2.webp`, dark: `${imagePrefix}/retail2.webp` },
-      link: '#'
-    },
-    {
-      animationDelay: 0.4,
-      title: 'Contract Manufacturing',
-      image: { light: `${imagePrefix}/manu2.webp`, dark: `${imagePrefix}/manu2.webp` },
+      title: 'Fence Line Clearing',
+      image: { light: `${imagePrefix}/fence-line-clearing.webp`, dark: `${imagePrefix}/fence-line-clearing.webp` },
       link: '#'
     }
   ]
