@@ -117,7 +117,7 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
           opacity: '50%'
         }}
       ></Box>
-      <ContainerWrapper sx={{ py: SECTION_COMMON_PY }}>
+      <ContainerWrapper sx={{ py: SECTION_COMMON_PY, minHeight: { xs: 592, sm: 738, md: 878 } }}>
         <Box ref={containerRef}>
           <Box sx={{ pb: { xs: 3, sm: 4, md: 5 } }}>
             <Stack sx={{ alignItems: 'center', gap: 1.5 }}>
