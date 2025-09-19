@@ -7,50 +7,97 @@ export const faq = {
   defaultExpanded: 'Fees & Charges',
   faqList: [
     {
-      question: `What range of products does ${branding.brandName} offer?`,
-      answer: `We provide everything you need to keep your business running — from everyday essentials like pencils, copy paper, and office furniture to shipping boxes and custom retail displays.
-      Each product has unique packaging needs. That might mean a simple stock box with bubble wrap, or a fully customized solution like a fabricated polyethylene foam insert or foam-in-place protection. For retail-ready items, it could be as straightforward as a stock box with branded tissue paper. Whatever the requirement, we’ve got you covered from end to end.`,
-      category: 'General'
+      question: `When should I mow my property?`,
+      answer: `Between March and December, we generally recommend you have your property anywhere between 2 to 4 weeks to keep it well maintained.`,
+      category: 'MOWING'
     },
     {
-      question: `Does ${branding.brandName} make their own boxes?`,
-      answer: `We’re often asked whether we manufacture our own boxes — and the answer is no. But that’s actually a big advantage for our customers.
-      Because we’re not tied to a single production facility, we work with a wide network of trusted suppliers. That gives us the flexibility to source the best possible packaging solution for each specific application — at the right price, with the right lead time, and tailored to your unique needs. Our priority isn’t selling you our box — it’s finding your best-fit box.`,
-      category: 'General'
+      question: `Does my grass need to be dry?`,
+      answer: `No, your grass can be wet when it’s time to cut it.`,
+      category: 'MOWING'
     },
     {
-      question: `Is going through ${branding.brandName} more expensive than from the supplier?`,
-      answer: `Our high-volume partnerships with suppliers allow us to secure discounted rates, helping us offer competitive prices directly in the marketplace.`,
-      category: 'General'
+      question: `What happens to the cut grass?`,
+      answer: `Often times the cut grass is simply left where it’s cut to biodegrade and break down naturally. Depending on the grass being cut, it could also be used for hay.`,
+      category: 'MOWING'
     },
     {
       question: `
-    What is your typical turn-around time?`,
+    What type of grass seed is used in Hydroseeding?`,
       answer:
-        "Turnaround time truly depends on each client's unique situation. We encourage you to contact our support team for more information.",
-      category: 'General'
+        'Hydromulching is a versatile process that can utilize many types of grasses in the process. Grass types are usually chosen in relation to the amount of sun said grass can expect to receive.',
+      category: 'HYDROMULCHING'
     },
     {
-      question: `Will ${branding.brandName} ship your order to you?`,
-      answer: 'Yes, we have a world-class shipping and logistics team that will ensure your order is delivered on-time.',
-      category: 'Support & Updates'
+      question: `Should I have my soil tested before the process?`,
+      answer: 'It’s not exactly required, but it’s generally advised to have your soil tested to establish the requirements of your grass.',
+      category: 'HYDROMULCHING'
     },
     {
-      question: `How does ${branding.brandName} handle custom orders?`,
+      question: `Should I stay off hydroseeded soil?`,
       answer:
-        'If a customer has a prototype, it’s incredibly helpful for us to evaluate how the product needs to be packed. We look at who the end user is, how the item will ship, and whether there are any special requirements or certifications we need to meet. For sensitive products, we may recommend custom foam inserts, while others might only need roll foam or bubble wrap. We’ll also consider quantity—whether a standard stock box will do for a small run, or if a custom box is necessary for larger or more specific needs. From there, we determine the ideal design and materials, then provide a sample and pricing for the customer’s review.',
-      category: 'Orders'
+        'Walking across the soil generally won’t affect it too much but it’s not advised. Driving over it or walking across it frequently is very detrimental to its long-term quality.',
+      category: 'HYDROMULCHING'
     },
     {
-      question: `Can I set-up recurring orders?`,
+      question: `What kind gravel should I use?`,
       answer:
-        "Many of our customers rely on a consistent list of everyday packaging essentials — shipping boxes, poly bags, tape, bubble wrap, packing peanuts — all the standard supplies you'd expect to find in a warehouse. In fact, several of our customers place the same recurring order each week, making the process seamless and predictable.",
-      category: 'Orders'
+        'Gravel size differs depending on what you need. Driveways use larger gravel than simple footpaths. We’ll evaluate what you need when we come out to figure out what you need.',
+      category: 'GRAVEL'
+    },
+    {
+      question: `What is gravel made of?`,
+      answer: 'Gravel is a mix of several different kinds of rocks, with the most common being sandstone, limestone, and basalt.',
+      category: 'GRAVEL'
+    },
+    {
+      question: `How often should my gravel be maintained.`,
+      answer: 'It’s generally advised to lay more gravel every 2 to 3 years.',
+      category: 'GRAVEL'
+    },
+    {
+      question: `Do You Do the Mulching yourself?`,
+      answer:
+        'Yes. We take the leftovers from the land clearing and use them to make an all-natural mulch for your land, and then spread it out accordingly.',
+      category: 'MULCHING'
+    },
+    {
+      question: `Do I need to maintain my mulch?`,
+      answer:
+        'That depends on what you intend to do. If your intentions are simply to allow growth in your area, then really all you need to do is let nature take its course. If you’re intending to grow specific plants, then you’ll want to pay attention to prevent things like weeds from taking root.',
+      category: 'MULCHING'
+    },
+    {
+      question: `What goes into the mulch?`,
+      answer: 'Really anything organic for the most part. If we cut it down, it’s probably going to be in the mulch.',
+      category: 'MULCHING'
+    },
+    {
+      question: `What is the difference between your mulch and store-bought mulch?`,
+      answer:
+        'Store-bought mulch is coated, colored, or dyed which is beautiful to look at but impedes the natural decomposition process. The mulch that we create decomposes, leaving you a nutrient rich soil.',
+      category: 'MULCHING'
+    },
+    {
+      question: `How do you perform Demo work?`,
+      answer: 'The go-to tools of the trade are sledgehammers and jackhammers. Other tools are utilized when the need demands it.',
+      category: 'DEMOLITION'
+    },
+    {
+      question: `Do provide complete demolitions?`,
+      answer:
+        'That depends on the structure. Smaller buildings like sheds we can handle, but the outright demolition of something like a house is outside of the scope of our expertise.',
+      category: 'DEMOLITION'
+    },
+    {
+      question: `What happens to the leftover material?`,
+      answer: 'The materials collected afterward will be either recycled or thrown away by us unless you specify you want otherwise.',
+      category: 'DEMOLITION'
     }
   ],
   getInTouch: {
-    link: { children: 'Get in Touch', href: '/contact', target: '_blank', rel: 'noopener noreferrer' }
+    link: { children: 'GET IN TOUCH', href: '/contact', target: '_blank', rel: 'noopener noreferrer' }
   },
-  categories: ['General', 'Orders', 'Support & Updates'],
-  activeCategory: 'General'
+  categories: ['MOWING', 'HYDROMULCHING', 'GRAVEL', 'MULCHING', 'DEMOLITION'],
+  activeCategory: 'MOWING'
 };

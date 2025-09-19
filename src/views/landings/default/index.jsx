@@ -30,6 +30,7 @@ import {
   testimonial
 } from './data';
 import { Gallery4 } from '@/blocks/gallery';
+import { Box } from '@mui/material';
 
 /***************************  PAGE - MAIN  ***************************/
 
@@ -37,7 +38,7 @@ export default function Main() {
   useDataThemeMode();
 
   return (
-    <>
+    <Box sx={{ position: 'relative' }}>
       <Hero17 {...hero} />
       <LazySection
         sections={[
@@ -76,6 +77,6 @@ export default function Main() {
         }
         offset="200px"
       /> */}
-    </>
+    </Box>
   );
 }

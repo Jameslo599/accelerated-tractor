@@ -141,8 +141,8 @@ export default function TermsConditionPage() {
                   px: 1.5,
                   borderRadius: 3,
                   mb: 0.75,
-                  ...(selectedID === item.id && { color: 'primary.main', bgcolor: 'grey.100' }),
-                  '&:hover': { bgcolor: 'grey.50' }
+                  ...(selectedID === item.id && { color: 'text.reverse', bgcolor: 'grey.100' }),
+                  '&:hover': { color: 'text.primary', bgcolor: 'primary.light' }
                 }}
                 onClick={() => setSelectedID(item.id)}
               >

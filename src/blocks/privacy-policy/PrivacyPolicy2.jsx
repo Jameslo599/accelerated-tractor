@@ -32,7 +32,7 @@ const policyItems = [
   {
     heading: '5. Your Rights',
     caption:
-      'You have rights under applicable privacy laws, which may include: Accessing your personal data, correcting inaccurate or incomplete data, requesting deletion of your data, objecting to or limiting data processing, to exercise these rights, contact us at paul@thepackageiseverything.com.'
+      'You have rights under applicable privacy laws, which may include: Accessing your personal data, correcting inaccurate or incomplete data, requesting deletion of your data, objecting to or limiting data processing, to exercise these rights, contact us at jason@adicompanies.com.'
   },
   {
     heading: '6. Data Retention',
@@ -56,7 +56,7 @@ const policyItems = [
   },
   {
     heading: '10. Contact Us',
-    caption: 'If you have questions or concerns about this Privacy Policy, please contact us at paul@thepackageiseverything.com'
+    caption: 'If you have questions or concerns about this Privacy Policy, please contact us at jason@adicompanies.com.'
   }
 ];
 

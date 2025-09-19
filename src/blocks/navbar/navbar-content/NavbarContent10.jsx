@@ -46,9 +46,18 @@ export default function NavbarContent10({ landingBaseUrl, navItems, primaryBtn, 
             <MenuPopper
               offset={downSM ? 12 : 16}
               toggleProps={{
-                children: <SvgIcon name="tabler-menu-2" color="#ffffff" />,
+                children: <SvgIcon name="tabler-menu-2" color="text.primary" />,
+                variant: 'outlined',
                 color: 'inherit',
-                sx: { minWidth: 40, width: 40, height: 40, p: 0 }
+                sx: {
+                  minWidth: 40,
+                  width: 40,
+                  height: 40,
+                  p: 0,
+                  backgroundColor: 'background.default',
+                  borderRadius: '0.75rem',
+                  borderColor: 'primary.main'
+                }
               }}
             >
               <ContainerWrapper>
@@ -58,7 +67,7 @@ export default function NavbarContent10({ landingBaseUrl, navItems, primaryBtn, 
                   </Box>
                 )}
                 {downSM && (
-                  <Stack direction="row" sx={{ justifyContent: 'space-between', gap: 1, px: 5, py: 2.5, mx: -5, bgcolor: 'grey.100' }}>
+                  <Stack direction="row" sx={{ justifyContent: 'space-between', gap: 1, px: 5, py: 2.5, mx: -5, bgcolor: 'grey.contact' }}>
                     <ButtonAnimationWrapper>
                       <NavPrimaryButton {...primaryBtn} />
                     </ButtonAnimationWrapper>

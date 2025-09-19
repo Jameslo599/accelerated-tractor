@@ -20,6 +20,7 @@ import ContainerWrapper from '@/components/ContainerWrapper';
 import { Copyright, FollowUS, Sitemap } from '@/components/footer';
 import LogoSection from '@/components/logo';
 import SvgIcon from '@/components/SvgIcon';
+import Payment from '@/components/Payment';
 
 import { CopyrightType } from '@/enum';
 import { DOCS_URL, FREEBIES_URL } from '@/path';
@@ -105,6 +106,23 @@ const usefulLinks = [
     href: 'https://share.google/kGydARe0jsCgKqR7u'
   }
 ];
+const payments = {
+  cards: [
+    { src: '/assets/svg/payments/visa.svg', alt: 'visa' },
+    { src: '/assets/svg/payments/mastercard.svg', alt: 'mastercard' },
+    { src: '/assets/svg/payments/discover-card.svg', alt: 'discover' },
+    { src: '/assets/svg/payments/amex.svg', alt: 'american express' }
+  ],
+  preferred: [
+    { src: '/assets/svg/payments/cash.svg', alt: 'cash' },
+    { src: '/assets/svg/payments/check.svg', alt: 'check' },
+    { src: '/assets/svg/payments/bitcoin.svg', alt: 'bitcoin' },
+    { src: '/assets/svg/payments/zelle.svg', alt: 'zelle' },
+    { src: '/assets/svg/payments/cashapp.svg', alt: 'cash app' },
+    { src: '/assets/svg/payments/paypal.svg', alt: 'paypal' },
+    { src: '/assets/svg/payments/venmo.svg', alt: 'venmo' }
+  ]
+};
 
 /***************************  FOOTER - 7  ***************************/
 
@@ -140,6 +158,7 @@ export default function Footer() {
                 sx={{ gap: 3, justifyContent: 'space-between', height: 1, color: 'text.reverse' }}
               >
                 {logoFollowContent}
+                <Payment payments={payments} />
                 <Stack>
                   {usefulLinks.map((item, index) => (
                     <Stack direction="row" sx={{ alignItems: 'center' }} key={index}>
@@ -151,6 +170,7 @@ export default function Footer() {
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Useful Links"
+                        sx={{ '&:hover': { textDecoration: 'underline' } }}
                       >
                         {item.title}
                       </Link>

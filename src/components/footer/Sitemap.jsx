@@ -125,7 +125,8 @@ export default function Sitemap({ list, isMenuDesign }) {
                     sx={{
                       ...menuItemStyle,
                       ...(isMenuDesign && { ...theme.typography.caption2, fontWeight: 400, my: 0.25 }),
-                      color: 'text.reverse'
+                      color: 'text.reverse',
+                      '&:hover': { textDecoration: 'underline', backgroundColor: 'unset' }
                     }}
                     {...(menu.link && { component: NextLink, ...menu.link })}
                     tabIndex={0}

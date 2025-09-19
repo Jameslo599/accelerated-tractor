@@ -26,7 +26,7 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 
 function ContactCard({ icon, title, content, link }) {
   return (
-    <GraphicsCard sx={{ height: 1 }}>
+    <GraphicsCard sx={{ height: 1, backgroundColor: 'grey.contactDark' }}>
       <Stack direction={{ xs: 'row', sm: 'column' }} sx={{ gap: { xs: 2, sm: 4, md: 5 }, height: 1, p: { xs: 2, sm: 3, md: 4 } }}>
         <Avatar sx={{ width: 60, height: 60, bgcolor: 'grey.300' }}>
           <SvgIcon {...(typeof icon === 'string' ? { name: icon } : { ...icon })} />
@@ -74,8 +74,8 @@ export default function ContactUs4({ heading, caption, list, showForm = true }) 
                 }}
                 style={{ height: '100%' }}
               >
-                <GraphicsCard sx={{ height: 1, borderRadius: cardRadius }}>
-                  <GraphicsCard sx={{ bgcolor: 'grey.200', borderRadius: cardRadius }}>
+                <GraphicsCard sx={{ height: 1, borderRadius: cardRadius, bgcolor: 'grey.contactDark' }}>
+                  <GraphicsCard sx={{ bgcolor: 'grey.contact', borderRadius: cardRadius }}>
                     <Box sx={{ p: { xs: 2, sm: 4, md: 5 } }}>
                       {heading && (
                         <Typeset

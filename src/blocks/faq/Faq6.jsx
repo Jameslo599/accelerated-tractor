@@ -101,8 +101,8 @@ export default function Faq6({ heading, caption, defaultExpanded, faqList, getIn
                     minHeight: { xs: 40, sm: 48 },
                     color: 'text.primary',
                     borderColor: 'divider',
-                    bgcolor: activeTopic === '' ? 'grey.100' : 'inherit',
-                    '&.MuiButton-root:hover': { bgcolor: 'grey.100', borderColor: 'divider' }
+                    bgcolor: activeTopic === '' ? 'primary.orange' : 'inherit',
+                    '&.MuiButton-root:hover': { bgcolor: 'primary.orangeLight', borderColor: 'divider' }
                   }}
                   variant="outlined"
                   onClick={() => {
@@ -110,7 +110,7 @@ export default function Faq6({ heading, caption, defaultExpanded, faqList, getIn
                     setFilterFaqList(faqList);
                   }}
                 >
-                  All
+                  ALL
                 </Button>
                 {categories.map((item, index) => (
                   <Button
@@ -119,8 +119,8 @@ export default function Faq6({ heading, caption, defaultExpanded, faqList, getIn
                       minHeight: { xs: 40, sm: 48 },
                       color: 'text.primary',
                       borderColor: 'divider',
-                      bgcolor: activeTopic === item ? 'grey.100' : 'inherit',
-                      '&.MuiButton-root:hover': { bgcolor: 'grey.100', borderColor: 'divider' }
+                      bgcolor: activeTopic === item ? 'primary.orange' : 'inherit',
+                      '&.MuiButton-root:hover': { bgcolor: 'primary.orangeLight', borderColor: 'divider' }
                     }}
                     variant="outlined"
                     onClick={() => {
@@ -155,7 +155,7 @@ export default function Faq6({ heading, caption, defaultExpanded, faqList, getIn
                   onChange={handleChange(`panel${index}`)}
                   sx={{
                     borderRadius: cardRadius,
-                    backgroundColor: 'grey.100',
+                    backgroundColor: 'grey.contact',
                     ...(isFocusWithin && { '&:focus-within': generateFocusVisibleStyles(theme.palette.primary.main) })
                   }}
                 >
@@ -163,10 +163,11 @@ export default function Faq6({ heading, caption, defaultExpanded, faqList, getIn
                     expandIcon={<SvgIcon name={expanded === `panel${index}` ? 'tabler-minus' : 'tabler-plus'} {...iconProps} size={20} />}
                     sx={{
                       p: accordionPX,
+                      transition: 'color 0.1s',
                       '& .MuiAccordionSummary-expandIconWrapper': { color: 'text.primary' },
                       '& .MuiAccordionSummary-content': { my: 0 },
                       '&.Mui-focusVisible': { bgcolor: 'transparent' },
-                      '&:hover, &:hover svg': { color: 'primary.dark' }
+                      '&:hover, &:hover svg': { color: 'primary.orange' }
                     }}
                   >
                     <Typography variant="h4">{item.question}</Typography>

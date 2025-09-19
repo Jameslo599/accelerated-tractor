@@ -22,7 +22,8 @@ export default function palette(mode) {
       dark: '#004E98', // AI/primary/30 - on primary fixed variant
       darker: '#001D31', // AI/primary/10 - on primary container / on primary fixed
       overlay: '#fafafa',
-      orange: '#ff7634'
+      orange: '#ff7634',
+      orangeLight: '#ff8d54'
     },
     secondary: {
       lighter: '#fafafa', // AI/secondary/90 - secondary container / secondary fixed
@@ -41,7 +42,9 @@ export default function palette(mode) {
       600: divider, // AI/neutral variant/80 - outline variant
       700: '#004E98', // AI/neutral variant/50 - outline
       800: textSecondary, // AI/neutral variant/30 - on surface variant
-      900: textPrimary // AI/neutral/10 - on surface
+      900: textPrimary, // AI/neutral/10 - on surface
+      contact: '#ebeef3',
+      contactDark: '#f1f4f9'
     },
     text: {
       primary: textPrimary, // AI/neutral/10 - on surface
@@ -62,7 +65,8 @@ export default function palette(mode) {
       dark: '#CCE5FF ', // AI/primary/90 - on primary container / primary fixed
       darker: '#E7F2FF', // AI/primary/95 - on primary container / on primary fixed
       overlay: '#fbfbfb',
-      orange: '#cc5500'
+      orange: '#cc5500',
+      orangeLight: '#ab4800'
     },
     secondary: {
       lighter: '#384858', // AI/secondary/30 - secondary container / on secondary fixed variant
@@ -81,7 +85,9 @@ export default function palette(mode) {
       600: dividerDark, // AI/neutral variant/30 - outline variant
       700: '#8C9198', // AI/neutral variant/60 - outline
       800: textSecondaryDark, // AI/neutral variant/80 - on surface variant
-      900: textPrimaryDark // AI/neutral/90 - on surface
+      900: textPrimaryDark, // AI/neutral/90 - on surface
+      contact: '#1C2024',
+      contactDark: '#1A1C1E'
     },
     text: {
       primary: textPrimaryDark, // AI/neutral/90 - on surface
