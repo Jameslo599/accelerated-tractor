@@ -25,7 +25,7 @@ function footerData() {
             sx={{ bgcolor: 'background.default', '& .MuiChip-label': { px: 1.5, py: 0.5 }, '& .MuiChip-icon': { ml: 1.25 } }}
           />
           <Typography variant="h5" sx={{ color: 'primary.overlay' }}>
-            Providing Beautiful Landscapes to Our Communities
+            Serving Our Communities
           </Typography>
         </Stack>
         <Typography variant="body2" sx={{ color: 'text.reverse' }}>
