@@ -20,16 +20,17 @@ function footerData() {
       <Stack sx={{ gap: 1 }}>
         <Stack sx={{ alignItems: 'flex-start', gap: 1.5 }}>
           <Chip
-            label={<Typography variant="subtitle2">Infinite possibilities</Typography>}
+            label={<Typography variant="subtitle2">Our Mission</Typography>}
             size="small"
             sx={{ bgcolor: 'background.default', '& .MuiChip-label': { px: 1.5, py: 0.5 }, '& .MuiChip-icon': { ml: 1.25 } }}
           />
           <Typography variant="h5" sx={{ color: 'primary.overlay' }}>
-            We can take your project from an idea to the marketplace.
+            Providing Beautiful Landscapes to Our Communities
           </Typography>
         </Stack>
         <Typography variant="body2" sx={{ color: 'text.reverse' }}>
-          We can package anything and everything, while completely satisfying our clients, markets, people, and the planet.
+          Whether you live in Dallas, Fort Worth, or one of the surrounding areas that we cover, Accelerated Tractor Services will deliver
+          the results you’re looking for!
         </Typography>
       </Stack>
     </Stack>
@@ -49,12 +50,12 @@ function bannerData() {
             sx={{ bgcolor: 'background.default', '& .MuiChip-label': { px: 1.5, py: 0.5 }, '& .MuiChip-icon': { ml: 1.25 } }}
           />
           <Typography variant="h5" sx={{ color: 'primary.overlay' }}>
-            The Right Package Makes All the Difference
+            Exceeding Your Expectations in Every Aspect
           </Typography>
         </Stack>
         <Typography variant="body2" sx={{ color: 'text.reverse' }}>
-          Choosing the perfect packaging solution is essential not only for your product’s success but also for creating an exceptional
-          experience for your customers. Discover how we empower you to achieve both.
+          We promise to always give our very best when it comes to each and every mowing project we work on. No matter what your property
+          needs, you can trust Accelerated Tractor Services to get the job done right.
         </Typography>
       </Stack>
     </Stack>

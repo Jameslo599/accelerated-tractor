@@ -51,7 +51,7 @@ export const faq = {
       category: 'GRAVEL'
     },
     {
-      question: `How often should my gravel be maintained.`,
+      question: `How often should my gravel be maintained?`,
       answer: 'It’s generally advised to lay more gravel every 2 to 3 years.',
       category: 'GRAVEL'
     },
