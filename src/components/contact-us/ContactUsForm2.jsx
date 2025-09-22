@@ -21,7 +21,7 @@ import Popper from '@mui/material/Popper';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-// import { Snackbar, Alert } from '@mui/material';
+import { Snackbar, Alert } from '@mui/material';
 
 // @third-party
 import { useForm, Controller } from 'react-hook-form';
@@ -79,23 +79,23 @@ export default function ContactUsForm2() {
     setValue
   } = useForm({ defaultValues: { dialcode: '+1' } });
 
-  // Snackbar
-  // const [state, setState] = useState({
-  //   on: false,
-  //   vertical: 'top',
-  //   horizontal: 'center',
-  //   message: '',
-  //   result: ''
-  // });
-  // const { vertical, horizontal, on, message, result } = state;
+  Snackbar;
+  const [state, setState] = useState({
+    on: false,
+    vertical: 'top',
+    horizontal: 'center',
+    message: '',
+    result: ''
+  });
+  const { vertical, horizontal, on, message, result } = state;
 
-  // const handleSnack = (newState) => {
-  //   setState({ ...state, ...newState, on: true });
-  // };
+  const handleSnack = (newState) => {
+    setState({ ...state, ...newState, on: true });
+  };
 
-  // const handleClose = () => {
-  //   setState({ ...state, on: false });
-  // };
+  const handleClose = () => {
+    setState({ ...state, on: false });
+  };
 
   // Handle form submission
   const onSubmit = async (formValues) => {
@@ -117,12 +117,13 @@ export default function ContactUsForm2() {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} name="contact" netlify>
-      {/* <Snackbar anchorOrigin={{ vertical, horizontal }} open={on} autoHideDuration={4000} onClose={handleClose}>
+    <form onSubmit={handleSubmit(onSubmit)} name="contact" data-netlify="true" method="POST">
+      <input type="hidden" name="form-name" value="contact" />
+      <Snackbar anchorOrigin={{ vertical, horizontal }} open={on} autoHideDuration={4000} onClose={handleClose}>
         <Alert onClose={handleClose} severity={result} variant="filled" sx={{ width: '100%', p: 1 }}>
           {message}
         </Alert>
-      </Snackbar> */}
+      </Snackbar>
 
       <Stack sx={{ gap: { xs: 3, sm: 4 } }}>
         <Grid container spacing={2.5} sx={{ justifyContent: 'space-between' }}>
@@ -276,6 +277,7 @@ export default function ContactUsForm2() {
                 slotProps={{ input: { 'aria-label': 'Message' } }}
               />
               {errors.message?.message && <ErrorMessage message={errors.message?.message} />}
+              <div class="field" data-netlify-recaptcha="true"></div>
             </Stack>
           </Grid>
         </Grid>

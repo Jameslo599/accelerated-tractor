@@ -22,7 +22,7 @@ export default function palette(mode) {
       dark: '#004E98', // AI/primary/30 - on primary fixed variant
       darker: '#001D31', // AI/primary/10 - on primary container / on primary fixed
       overlay: '#fafafa',
-      orange: '#ff7634',
+      orange: '#fe804b',
       orangeLight: '#ff8d54'
     },
     secondary: {
