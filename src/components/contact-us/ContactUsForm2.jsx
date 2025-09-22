@@ -109,6 +109,15 @@ export default function ContactUsForm2() {
       // const data = await response.json();
       // if (!response.ok) throw new Error(data.message);
 
+      const response = await fetch('/api/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formValues)
+      });
+
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.message);
+
       handleSnack({ message: "Form submitted! We'll get back to you soon!", result: 'success' });
       reset();
     } catch (err) {
