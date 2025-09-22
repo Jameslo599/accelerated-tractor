@@ -9,7 +9,7 @@ export const metadata = { ...SEO_CONTENT.error404Page };
 /***************************  ERROR 404 - DATA  ***************************/
 
 const data = {
-  primaryBtn: { children: 'Back to Home Page', href: '/' },
+  primaryBtn: { children: 'BACK TO HOME PAGE', href: '/' },
   heading: `Looks like you've taken a wrong turn. Lets get you back on track!`
 };
 

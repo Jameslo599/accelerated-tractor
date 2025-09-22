@@ -86,7 +86,7 @@ export default function ContactUsForm1() {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} name="footer-form" netlify="true">
+    <form onSubmit={handleSubmit(onSubmit)} name="footer-form" netlify>
       <Grid container spacing={2.5}>
         <Grid size={{ xs: 12, sm: 6 }}>
           <Stack sx={{ gap: 0.5 }}>

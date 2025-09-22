@@ -29,7 +29,7 @@ export default function Error404Page({ primaryBtn, heading }) {
           minHeight: { xs: 450, sm: 600, md: 800 }
         }}
       >
-        <GraphicsCard sx={{ width: 1, height: 1, py: { xs: 3, sm: 4, md: 6 } }}>
+        <GraphicsCard sx={{ width: 1, height: 1, py: { xs: 3, sm: 4, md: 6 }, backgroundColor: 'primary.light' }}>
           <Stack sx={{ justifyContent: 'center', height: 1, gap: { xs: 4, sm: 1 } }}>
             <Error404 />
             <Stack sx={{ gap: 2.25, alignItems: 'center', mt: { sm: -5, lg: -6.25 } }}>

@@ -9,7 +9,7 @@ export const metadata = { ...SEO_CONTENT.error500Page };
 /***************************  ERROR 500 - DATA  ***************************/
 
 const data = {
-  primaryBtn: { children: 'Back to Home Page', href: '/' },
+  primaryBtn: { children: 'BACK TO HOME PAGE', href: '/' },
   heading: 'Please try again later or feel free to contact us if the problem persists.'
 };
 

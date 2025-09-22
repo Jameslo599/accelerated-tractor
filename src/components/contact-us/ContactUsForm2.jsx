@@ -117,7 +117,7 @@ export default function ContactUsForm2() {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} name="contact" netlify="true">
+    <form onSubmit={handleSubmit(onSubmit)} name="contact" netlify>
       {/* <Snackbar anchorOrigin={{ vertical, horizontal }} open={on} autoHideDuration={4000} onClose={handleClose}>
         <Alert onClose={handleClose} severity={result} variant="filled" sx={{ width: '100%', p: 1 }}>
           {message}

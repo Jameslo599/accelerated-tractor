@@ -6,7 +6,7 @@ import Error404Page from '@/blocks/maintenance/Error404';
 /***************************  ERROR 404 - DATA  ***************************/
 
 const data = {
-  primaryBtn: { children: 'Back to Home Page', onClick: () => window.history.back() },
+  primaryBtn: { children: 'BACK TO HOME PAGE', onClick: () => window.history.back() },
   heading: `Looks like you've taken a wrong turn. Lets get you back on track!`
 };
 
