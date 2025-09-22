@@ -7,10 +7,10 @@
   </head>
   <body>
     <!-- A little help for the Netlify post-processing bots -->
-    <form name="contact-form" netlify hidden>
+    <form name="contact-form" data-netlify="true" method="POST" action="#" hidden>
       <input type="text" name="firstName" />
       <input type="text" name="lastName" />
-      <input type="email" name="email" />
+      <input type="text" name="email" />
       <input type="tel" name="phone" />
       <textarea name="message"></textarea>
     </form>

@@ -117,6 +117,7 @@ export default function ContactUsForm2() {
 
       const data = await response.json();
       if (!response.ok) throw new Error(data.message);
+      console.log(formValues);
 
       handleSnack({ message: "Form submitted! We'll get back to you soon!", result: 'success' });
       reset();
@@ -127,7 +128,6 @@ export default function ContactUsForm2() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} name="contact-form" data-netlify="true" method="POST" action="#" data-netlify-recaptcha="true">
-      <input type="hidden" name="form-name" value="contact" />
       <Snackbar anchorOrigin={{ vertical, horizontal }} open={on} autoHideDuration={4000} onClose={handleClose}>
         <Alert onClose={handleClose} severity={result} variant="filled" sx={{ width: '100%', p: 1 }}>
           {message}
@@ -291,7 +291,6 @@ export default function ContactUsForm2() {
           </Grid>
         </Grid>
         <Box sx={{ textAlign: 'center' }}>
-          <div className="field" data-netlify-recaptcha="true"></div>
           <ButtonAnimationWrapper>
             <Button type="submit" color="primary" size="large" variant="contained" disabled={isSubmitting}>
               Send Message
