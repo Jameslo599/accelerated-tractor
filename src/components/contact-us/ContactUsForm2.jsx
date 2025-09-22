@@ -126,7 +126,7 @@ export default function ContactUsForm2() {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} name="contact" data-netlify="true" method="POST" action="#" data-netlify-recaptcha="true">
+    <form onSubmit={handleSubmit(onSubmit)} name="contact-form" data-netlify="true" method="POST" action="#" data-netlify-recaptcha="true">
       <input type="hidden" name="form-name" value="contact" />
       <Snackbar anchorOrigin={{ vertical, horizontal }} open={on} autoHideDuration={4000} onClose={handleClose}>
         <Alert onClose={handleClose} severity={result} variant="filled" sx={{ width: '100%', p: 1 }}>
@@ -186,6 +186,7 @@ export default function ContactUsForm2() {
                   <OutlinedInput
                     type="tel"
                     placeholder="Phone number"
+                    name="phone"
                     slotProps={{ input: { 'aria-label': 'Phone number' } }}
                     fullWidth
                     error={errors.phone && Boolean(errors.phone)}
@@ -290,7 +291,7 @@ export default function ContactUsForm2() {
           </Grid>
         </Grid>
         <Box sx={{ textAlign: 'center' }}>
-          <div class="field" data-netlify-recaptcha="true"></div>
+          <div className="field" data-netlify-recaptcha="true"></div>
           <ButtonAnimationWrapper>
             <Button type="submit" color="primary" size="large" variant="contained" disabled={isSubmitting}>
               Send Message
