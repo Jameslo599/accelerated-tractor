@@ -38,19 +38,12 @@ const data = [
     title: 'Company',
     menu: [
       {
-        label: 'About Us',
+        label: 'Residential',
         link: { href: '#', ...linkProps }
       },
       {
-        label: 'Contact Us',
-        link: { href: '/contact', ...linkProps }
-      },
-      {
-        label: 'Our Impact',
-        link: {
-          href: '#',
-          ...linkProps
-        }
+        label: 'Commercial',
+        link: { href: '#', ...linkProps }
       }
     ]
   },
@@ -66,6 +59,10 @@ const data = [
       {
         label: 'Support',
         link: { href: branding.company.socialLink.support, ...linkProps }
+      },
+      {
+        label: 'Contact Us',
+        link: { href: '/contact', ...linkProps }
       }
     ]
   },

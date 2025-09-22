@@ -8,7 +8,7 @@ import { Stack, Grid, Box, Typography } from '@mui/material';
 export default function Payment({ payments }) {
   return (
     <>
-      <Typography sx={{ borderBottom: '2px solid', width: 'fit-content' }}>Preferred Payments</Typography>
+      <Typography sx={{ borderBottom: { xs: '2px solid', sm: '0', md: '2px solid' }, width: 'fit-content' }}>Preferred Payments</Typography>
       <Grid container spacing={0}>
         {payments.preferred.map((item, i) => (
           <Grid
@@ -22,8 +22,8 @@ export default function Payment({ payments }) {
           </Grid>
         ))}
       </Grid>
-      <Typography sx={{ borderBottom: '2px solid', width: 'fit-content' }}>Accepted Payments</Typography>
-      <Stack direction="row" sx={{ gap: 0.75 }}>
+      <Typography sx={{ borderBottom: { xs: '2px solid', sm: '0', md: '2px solid' }, width: 'fit-content' }}>Accepted Payments</Typography>
+      <Stack direction="row" sx={{ gap: 0.75, flexDirection: { sm: 'column', md: 'row' } }}>
         {payments.cards.map((item, i) => {
           return (
             <Box key={i}>

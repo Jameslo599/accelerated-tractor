@@ -16,6 +16,7 @@ import {
   about3,
   benefit,
   clientele,
+  contactUS,
   cta4,
   cta5,
   faq,
@@ -31,6 +32,7 @@ import {
 } from './data';
 import { Gallery4 } from '@/blocks/gallery';
 import { Box } from '@mui/material';
+import ContactUs6 from '@/components/contact-us/ContactUs6';
 
 /***************************  PAGE - MAIN  ***************************/
 
@@ -63,11 +65,11 @@ export default function Main() {
         sections={[
           { importFunc: () => import('@/blocks/testimonial').then((module) => ({ default: module.Testimonial10 })), props: testimonial }
           // { importFunc: () => import('@/blocks/clientele').then((module) => ({ default: module.Clientele3 })), props: clientele }
-          // { importFunc: () => import('@/blocks/pricing').then((module) => ({ default: module.Pricing9 })), props: newPricing }
+          // { importFunc: () => import('@/blocks/contact-us').then((module) => ({ default: module.ContactUs6 })), props: contactUS }
         ]}
         offset="200px"
       />
-
+      <ContactUs6 {...contactUS} />
       {/* <LazySection
         sections={
           [
