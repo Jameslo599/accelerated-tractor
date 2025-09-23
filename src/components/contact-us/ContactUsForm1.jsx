@@ -21,6 +21,7 @@ import Popper from '@mui/material/Popper';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import { Snackbar, Alert } from '@mui/material';
 
 // @third-party
 import { useForm, Controller } from 'react-hook-form';
@@ -79,14 +80,52 @@ export default function ContactUsForm1() {
     setValue
   } = useForm({ defaultValues: { dialcode: '+1' } });
 
+  // Snackbar
+  const [state, setState] = useState({
+    on: false,
+    vertical: 'top',
+    horizontal: 'center',
+    message: '',
+    result: ''
+  });
+  const { vertical, horizontal, on, message, result } = state;
+
+  const handleSnack = (newState) => {
+    setState({ ...state, ...newState, on: true });
+  };
+
+  const handleClose = () => {
+    setState({ ...state, on: false });
+  };
+
   // Handle form submission
-  const onSubmit = (data) => {
-    console.log(data);
-    reset();
+  const encode = (data) => {
+    return Object.keys(data)
+      .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+      .join('&');
+  };
+
+  const onSubmit = (formValues) => {
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({ 'form-name': 'contact-form', ...formValues })
+    })
+      .then(() => {
+        handleSnack({ message: "Form submitted! We'll get back to you soon!", result: 'success' });
+        reset();
+      })
+      .catch((error) => handleSnack({ message: `Form submission unsuccessful. Please try again. Error: ${error}`, result: `'error'` }));
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} name="footer-form" netlify>
+    <form onSubmit={handleSubmit(onSubmit)} name="contact-form" data-netlify="true" method="POST" action="#">
+      <input type="hidden" name="form-field" value="contact" />
+      <Snackbar anchorOrigin={{ vertical, horizontal }} open={on} autoHideDuration={4000} onClose={handleClose}>
+        <Alert onClose={handleClose} severity={result} variant="filled" sx={{ width: '100%', p: 1 }}>
+          {message}
+        </Alert>
+      </Snackbar>
       <Grid container spacing={2.5}>
         <Grid size={{ xs: 12, sm: 6 }}>
           <Stack sx={{ gap: 0.5 }}>
@@ -136,7 +175,9 @@ export default function ContactUsForm1() {
               rules={phoneSchema}
               render={({ field: { onChange } }) => (
                 <OutlinedInput
+                  type="tel"
                   placeholder="Phone number"
+                  name="phone"
                   slotProps={{ input: { 'aria-label': 'Phone number' } }}
                   fullWidth
                   error={errors.phone && Boolean(errors.phone)}

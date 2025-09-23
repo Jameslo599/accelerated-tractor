@@ -79,7 +79,7 @@ export default function ContactUsForm2() {
     setValue
   } = useForm({ defaultValues: { dialcode: '+1' } });
 
-  Snackbar;
+  // Snackbar
   const [state, setState] = useState({
     on: false,
     vertical: 'top',
