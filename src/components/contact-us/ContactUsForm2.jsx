@@ -109,11 +109,18 @@ export default function ContactUsForm2() {
       // const data = await response.json();
       // if (!response.ok) throw new Error(data.message);
 
-      const response = await fetch('/api/submit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formValues)
+      const formData = new FormData();
+      formData.append('form-field', 'contact');
+      Object.entries(formValues).forEach(([key, value]) => {
+        formData.append(key, value);
       });
+
+      const response = await fetch('/', {
+        method: 'POST',
+        body: formData
+      });
+
+      console.log(formData);
 
       const data = await response.json();
       if (!response.ok) throw new Error(data.message);
@@ -127,7 +134,7 @@ export default function ContactUsForm2() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} name="contact-form" data-netlify="true" method="POST" action="#">
-      {/* <input type="hidden" name="bot-field" /> */}
+      <input type="hidden" name="form-field" value="contact" />
       <Snackbar anchorOrigin={{ vertical, horizontal }} open={on} autoHideDuration={4000} onClose={handleClose}>
         <Alert onClose={handleClose} severity={result} variant="filled" sx={{ width: '100%', p: 1 }}>
           {message}
@@ -207,6 +214,7 @@ export default function ContactUsForm2() {
                           }}
                           disableRipple
                           aria-describedby={id}
+                          name="dialcode"
                           type="button"
                           onClick={handleClick}
                         >
