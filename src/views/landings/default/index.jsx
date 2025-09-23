@@ -1,12 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-
-// @third-party
-import axios from 'axios';
-
 // @project
-import { Feature20 } from '@/blocks/feature';
 import { Hero17 } from '@/blocks/hero';
 import LazySection from '@/components/LazySection';
 import useDataThemeMode from '@/hooks/useDataThemeMode';

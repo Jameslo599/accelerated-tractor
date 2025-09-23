@@ -19,11 +19,10 @@ import { GraphicsCard } from '@/components/cards';
 import ContainerWrapper from '@/components/ContainerWrapper';
 import { Copyright, FollowUS, Sitemap } from '@/components/footer';
 import LogoSection from '@/components/logo';
-import SvgIcon from '@/components/SvgIcon';
 import Payment from '@/components/Payment';
 
 import { CopyrightType } from '@/enum';
-import { DOCS_URL, FREEBIES_URL } from '@/path';
+import { PAGE_PATH } from '@/path';
 import { SECTION_COMMON_PY } from '@/utils/constant';
 
 // @types
@@ -39,11 +38,11 @@ const data = [
     menu: [
       {
         label: 'Residential',
-        link: { href: '#', ...linkProps }
+        link: { href: PAGE_PATH.residentialPage, ...linkProps }
       },
       {
         label: 'Commercial',
-        link: { href: '#', ...linkProps }
+        link: { href: PAGE_PATH.commercialPage, ...linkProps }
       }
     ]
   },

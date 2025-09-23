@@ -75,53 +75,53 @@ export const pagesMegamenu = {
       {
         title: 'Driveways',
         image: '/assets/images/graphics/default/driveways.webp',
-        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
+        link: { href: PAGE_PATH.driveways, ...linkProps }
       },
       { title: 'Grading', image: '/assets/images/graphics/default/grading.webp', link: { href: PAGE_PATH.underMaintenance, ...linkProps } },
       {
         title: 'Clearing',
         image: '/assets/images/graphics/default/clearing.webp',
-        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
+        link: { href: PAGE_PATH.grading, ...linkProps }
       },
       {
         title: 'Mowing',
         image: '/assets/images/graphics/default/mowing.webp',
-        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
+        link: { href: PAGE_PATH.mowing, ...linkProps }
       },
       {
         title: 'Building Pads',
         image: '/assets/images/graphics/default/building-pads.webp',
-        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
+        link: { href: PAGE_PATH.buildingPads, ...linkProps }
       },
       {
         title: 'Arenas',
         image: '/assets/images/graphics/default/arena.webp',
-        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
+        link: { href: PAGE_PATH.arenas, ...linkProps }
       },
       {
         title: 'Excavation',
         image: '/assets/images/graphics/default/excavation.webp',
-        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
+        link: { href: PAGE_PATH.excavation, ...linkProps }
       },
       {
         title: 'Demolition',
         image: '/assets/images/graphics/default/demolition.webp',
-        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
+        link: { href: PAGE_PATH.demolition, ...linkProps }
       },
       {
         title: 'Leveling',
         image: '/assets/images/graphics/default/leveling.webp',
-        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
+        link: { href: PAGE_PATH.leveling, ...linkProps }
       },
       {
         title: 'Material Removal',
         image: '/assets/images/graphics/default/material-removal.webp',
-        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
+        link: { href: PAGE_PATH.materialRemoval, ...linkProps }
       },
       {
         title: 'Fence Line Clearing',
         image: '/assets/images/graphics/default/fence-line-clearing.webp',
-        link: { href: PAGE_PATH.underMaintenance, ...linkProps }
+        link: { href: PAGE_PATH.fenceLineClearing, ...linkProps }
       }
     ],
     footerData: footerData()
@@ -141,8 +141,8 @@ export const solutionsMegamenu = {
       {
         title: 'Industries',
         itemsList: [
-          { title: 'Residential', link: { href: PAGE_PATH.underMaintenance, ...linkProps } },
-          { title: 'Commercial', link: { href: PAGE_PATH.underMaintenance, ...linkProps } }
+          { title: 'Residential', link: { href: PAGE_PATH.residentialPage, ...linkProps } },
+          { title: 'Commercial', link: { href: PAGE_PATH.commercialPage, ...linkProps } }
         ]
       }
     ],
