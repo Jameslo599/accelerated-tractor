@@ -98,38 +98,39 @@ export default function ContactUsForm2() {
   };
 
   // Handle form submission
-  const onSubmit = async (formValues) => {
-    try {
-      // const response = await fetch('/api/contact', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify(formValues)
-      // });
+  const encode = (data) => {
+    return Object.keys(data)
+      .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+      .join('&');
+  };
 
-      // const data = await response.json();
-      // if (!response.ok) throw new Error(data.message);
+  const onSubmit = (formValues) => {
+    // try {
+    //   const response = await fetch('/api/contact', {
+    //     method: 'POST',
+    //     headers: { 'Content-Type': 'application/json' },
+    //     body: JSON.stringify(formValues)
+    //   });
 
-      const formData = new FormData();
-      formData.append('form-field', 'contact');
-      Object.entries(formValues).forEach(([key, value]) => {
-        formData.append(key, value);
-      });
+    //   const data = await response.json();
+    //   if (!response.ok) throw new Error(data.message);
 
-      const response = await fetch('/', {
-        method: 'POST',
-        body: formData
-      });
+    //   handleSnack({ message: "Form submitted! We'll get back to you soon!", result: 'success' });
+    //   reset();
+    // } catch (err) {
+    //   handleSnack({ message: 'Form submission unsuccessful. Please try again.', result: 'error' });
+    // }
 
-      console.log(formData);
-
-      const data = await response.json();
-      if (!response.ok) throw new Error(data.message);
-
-      handleSnack({ message: "Form submitted! We'll get back to you soon!", result: 'success' });
-      reset();
-    } catch (err) {
-      handleSnack({ message: 'Form submission unsuccessful. Please try again.', result: 'error' });
-    }
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({ 'form-name': 'contact-form', ...formValues })
+    })
+      .then(() => {
+        handleSnack({ message: "Form submitted! We'll get back to you soon!", result: 'success' });
+        reset();
+      })
+      .catch((error) => handleSnack({ message: `Form submission unsuccessful. Please try again. Error: ${error}`, result: `'error'` }));
   };
 
   return (
