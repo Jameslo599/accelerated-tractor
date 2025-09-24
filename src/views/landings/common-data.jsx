@@ -77,11 +77,11 @@ export const pagesMegamenu = {
         image: '/assets/images/graphics/default/driveways.webp',
         link: { href: PAGE_PATH.driveways, ...linkProps }
       },
-      { title: 'Grading', image: '/assets/images/graphics/default/grading.webp', link: { href: PAGE_PATH.underMaintenance, ...linkProps } },
+      { title: 'Grading', image: '/assets/images/graphics/default/grading.webp', link: { href: PAGE_PATH.grading, ...linkProps } },
       {
         title: 'Clearing',
         image: '/assets/images/graphics/default/clearing.webp',
-        link: { href: PAGE_PATH.grading, ...linkProps }
+        link: { href: PAGE_PATH.clearing, ...linkProps }
       },
       {
         title: 'Mowing',

@@ -4,23 +4,22 @@
 import LazySection from '@/components/LazySection';
 
 // @data
-import { contactUS, commercialDetail } from './data';
+import { clearingGallery, contactUS, drivewayGallery, driveways, removalGallery } from './data';
 import ContactUs6 from '@/components/contact-us/ContactUs6';
+import { clearing, material } from './data/blog-detail';
 
 /***************************  PAGE - ABOUT  ***************************/
 
-export default function Commercial() {
+export default function Material() {
   return (
     <>
-      {/* <Hero10 {...hero10} /> */}
-
       <LazySection
         sections={[
-          // { importFunc: () => import('@/blocks/gallery').then((module) => ({ default: module.Gallery1 })), props: gallery4 },
           {
             importFunc: () => import('@/blocks/blog-detail').then((module) => ({ default: module.BlogDetails })),
-            props: commercialDetail
-          }
+            props: material
+          },
+          { importFunc: () => import('@/blocks/gallery').then((module) => ({ default: module.Gallery1 })), props: removalGallery }
         ]}
         offset="200px"
       />

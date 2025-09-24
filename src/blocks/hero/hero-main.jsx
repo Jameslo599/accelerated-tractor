@@ -243,7 +243,7 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
             }}
             style={{ scale }}
           >
-            <GraphicsCard sx={{ border: '5px solid', borderColor: 'grey.300' }}>
+            <GraphicsCard sx={{ border: '5px solid', borderColor: 'grey.300', mt: { xs: '75px', sm: '150px' } }}>
               <Box sx={{ position: 'relative', paddingTop: '56.25%' /* 16:9 aspect ratio */ }}>
                 {videoSrc ? (
                   <iframe
