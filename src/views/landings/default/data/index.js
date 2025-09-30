@@ -16,7 +16,8 @@ export {
   excavationGallery,
   demoGallery,
   levelGallery,
-  removalGallery
+  removalGallery,
+  drainageGallery
 } from './gallery';
 export { hero, hero10 } from './hero';
 export { integration } from './integration';

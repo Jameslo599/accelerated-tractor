@@ -39,13 +39,13 @@ export default function Team4({ heading, caption, members }) {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 2,
     swipeToSlide: true,
     initialSlide: 0,
     responsive: [
       {
         breakpoint: theme.breakpoints.values.md - 1,
-        settings: { slidesToShow: 3 }
+        settings: { slidesToShow: 2 }
       },
       {
         breakpoint: theme.breakpoints.values.sm - 1,

@@ -1,90 +1,109 @@
 export const team = {
-  heading: 'Empowered Team, Empowered Results',
-  caption:
-    'Learn about the empowered individuals who make up our team. Discover how their unique strengths contribute to our collective success',
-  image: '/assets/images/team/team-member-1.png',
-  description: 'Linear co-founders Jori Lallo, Karri Saarinen, and Tuomas Artman.',
+  heading: 'IMAGE GALLERY',
+  caption: 'Contact Us for North Texas Land Management Services',
+  image: '/assets/images/graphics/default/driveway-b.webp',
+  description: 'Portfolio of site prep and maintenance',
   actionBtn: { children: 'We’re Hiring', href: '#' },
   members: [
     {
-      name: 'Tricia Yundt',
-      role: 'Chief Executive Officer',
-      avatar: '/assets/images/user/avatar1.png'
+      name: 'Before',
+      role: 'Driveway',
+      avatar: '/assets/images/graphics/default/driveway-b.webp'
     },
     {
-      name: 'Henrietta Bayer',
-      role: 'Chief Technology Officer',
-      avatar: '/assets/images/user/avatar2.png'
+      name: 'After',
+      role: 'Driveway',
+      avatar: '/assets/images/graphics/default/driveway-a.webp'
     },
     {
-      name: 'Elmer Heller',
-      role: 'Chief Financial Officer',
-      avatar: '/assets/images/user/avatar3.png'
+      name: 'Before',
+      role: 'Grading',
+      avatar: '/assets/images/graphics/default/grading-b.webp'
     },
     {
-      name: 'Melissa Altenwerth',
-      role: 'Chief Executive Officer',
-      avatar: '/assets/images/user/avatar4.png'
+      name: 'After',
+      role: 'Grading',
+      avatar: '/assets/images/graphics/default/grading-a.webp'
     },
     {
-      name: 'Josefina Murray',
-      role: 'Product Managers',
-      avatar: '/assets/images/user/avatar5.png'
+      name: 'Before',
+      role: 'Mowing',
+      avatar: '/assets/images/graphics/default/mowing-b.webp'
     },
     {
-      name: 'Dave Mayer',
-      role: 'Marketing Managers',
-      avatar: '/assets/images/user/avatar6.png'
+      name: 'After',
+      role: 'Mowing',
+      avatar: '/assets/images/graphics/default/mowing-a.webp'
     },
     {
-      name: 'Marlene Stehr',
-      role: 'Customer Success Managers',
-      avatar: '/assets/images/user/avatar7.png'
+      name: 'Before',
+      role: 'Building Pad',
+      avatar: '/assets/images/graphics/default/building-pad-b.webp'
     },
     {
-      name: 'Benny Bailey',
-      role: 'IT Manager',
-      avatar: '/assets/images/user/avatar8.png'
+      name: 'After',
+      role: 'Building Pad',
+      avatar: '/assets/images/graphics/default/building-pad-a.webp'
     },
     {
-      name: 'Tricia Yundt',
-      role: 'Chief Executive Officer',
-      avatar: '/assets/images/user/avatar9.png'
+      name: 'Before',
+      role: 'Excavation',
+      avatar: '/assets/images/graphics/default/excavation.webp'
     },
     {
-      name: 'Henrietta Bayer',
-      role: 'Chief Technology Officer',
-      avatar: '/assets/images/user/avatar10.png'
+      name: 'After',
+      role: 'Excavation',
+      avatar: '/assets/images/graphics/default//excavation/excavation2.webp'
     },
     {
-      name: 'Elmer Heller',
-      role: 'Chief Financial Office',
-      avatar: '/assets/images/user/avatar11.png'
+      name: 'Before',
+      role: 'Demolition',
+      avatar: '/assets/images/graphics/default/demolition-b.webp'
     },
     {
-      name: 'Melissa Altenwerth',
-      role: 'Chief Executive Officer',
-      avatar: '/assets/images/user/avatar12.png'
+      name: 'After',
+      role: 'Demolition',
+      avatar: '/assets/images/graphics/default/demolition-a.webp'
     },
     {
-      name: 'Josefina Murray',
-      role: 'Product Managers',
-      avatar: '/assets/images/user/avatar13.png'
+      name: 'Before',
+      role: 'Leveling',
+      avatar: '/assets/images/graphics/default/Leveling-b.webp'
     },
     {
-      name: 'Dave Mayer',
-      role: 'Marketing Managers',
-      avatar: '/assets/images/user/avatar14.png'
+      name: 'After',
+      role: 'Leveling',
+      avatar: '/assets/images/graphics/default/Leveling-a.webp'
     },
     {
-      name: 'Marlene Stehr',
-      role: 'Customer Success Managers',
-      avatar: '/assets/images/user/avatar4.png'
+      name: 'Before',
+      role: 'Material Removal',
+      avatar: '/assets/images/graphics/default/Material-Removal-b.webp'
     },
     {
-      name: 'Benny Bailey',
-      role: 'IT Manager',
-      avatar: '/assets/images/user/avatar5.png'
+      name: 'After',
+      role: 'Material Removal',
+      avatar: '/assets/images/graphics/default/Material-Removal-a.webp'
+    },
+    {
+      name: 'Before',
+      role: 'Driveway',
+      avatar: '/assets/images/graphics/default/Driveway-b.webp'
+    },
+    {
+      name: 'After',
+      role: 'Driveway',
+      avatar: '/assets/images/graphics/default/Driveway-a.webp'
+    },
+    {
+      name: 'Before',
+      role: 'Grading',
+      avatar: '/assets/images/graphics/default/driveway2-b.webp'
+    },
+    {
+      name: 'After',
+      role: 'Grading',
+      avatar: '/assets/images/graphics/default/driveway2-a.webp'
     }
   ]
 };

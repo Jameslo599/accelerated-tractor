@@ -38,6 +38,7 @@ export const PAGE_PATH = {
   leveling: path([SECTION_PATH, 'leveling']),
   materialRemoval: path([SECTION_PATH, 'material-removal']),
   fenceLineClearing: path([SECTION_PATH, 'fence-line-clearing']),
+  drainage: path([SECTION_PATH, 'drainage']),
   privacyPolicyPage: '/privacy-policy',
   termsConditionPage: '/terms-condition'
 };

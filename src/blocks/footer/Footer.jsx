@@ -51,10 +51,10 @@ const data = [
     grid: { size: { xs: 6, sm: 'auto' } },
     title: 'Support',
     menu: [
-      {
-        label: 'FAQS',
-        link: { href: '/faq', ...linkProps }
-      },
+      // {
+      //   label: 'FAQS',
+      //   link: { href: '/faq', ...linkProps }
+      // },
       {
         label: 'Support',
         link: { href: branding.company.socialLink.support, ...linkProps }
@@ -154,7 +154,7 @@ export default function Footer() {
                 sx={{ gap: 3, justifyContent: 'space-between', height: 1, color: 'text.reverse' }}
               >
                 {logoFollowContent}
-                <Payment payments={payments} />
+                {/* <Payment payments={payments} /> */}
                 <Stack>
                   {usefulLinks.map((item, index) => (
                     <Stack direction="row" sx={{ alignItems: 'center' }} key={index}>

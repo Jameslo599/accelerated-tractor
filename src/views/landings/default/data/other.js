@@ -76,6 +76,12 @@ export const other = {
       title: 'Fence Line Clearing',
       image: { light: `${imagePrefix}/fence-line-clearing.webp`, dark: `${imagePrefix}/fence-line-clearing.webp` },
       link: `${SECTION_PATH}/fence-line-clearing`
+    },
+    {
+      animationDelay: 0.4,
+      title: 'Drainage',
+      image: { light: `${imagePrefix}/drainage.webp`, dark: `${imagePrefix}/drainage.webp` },
+      link: `${SECTION_PATH}/drainage`
     }
   ]
 };

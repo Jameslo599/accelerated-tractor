@@ -119,7 +119,7 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
       ></Box>
       <ContainerWrapper sx={{ py: SECTION_COMMON_PY, minHeight: { xs: 592, sm: 738, md: 878 } }}>
         <Box ref={containerRef}>
-          <Box sx={{ pb: { xs: 3, sm: 4, md: 5 } }}>
+          <Box sx={{ pt: { xs: 6, sm: 8, md: 10 } }}>
             <Stack sx={{ alignItems: 'center', gap: 1.5 }}>
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
@@ -234,51 +234,53 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
               </motion.div>
             </Stack>
           </Box>
-          <motion.div
-            initial={{ opacity: 0, y: 0 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{
-              duration: 0.5,
-              delay: 0.5
-            }}
-            style={{ scale }}
-          >
-            <GraphicsCard sx={{ border: '5px solid', borderColor: 'grey.300', mt: { xs: '75px', sm: '150px' } }}>
-              <Box sx={{ position: 'relative', paddingTop: '56.25%' /* 16:9 aspect ratio */ }}>
-                {videoSrc ? (
-                  <iframe
-                    src={videoSrc}
-                    style={{
-                      position: 'absolute',
-                      top: 0,
-                      left: 0,
-                      width: '100%',
-                      height: '100%',
-                      border: '0'
-                    }}
-                    allow="autoplay; fullscreen; picture-in-picture"
-                    allowFullScreen
-                    title="Vimeo Video"
-                  />
-                ) : (
-                  <Box
-                    component="img"
-                    src={videoThumbnail} // your thumbnail / fallback
-                    alt="Video thumbnail"
-                    sx={{
-                      position: 'absolute',
-                      top: 0,
-                      left: 0,
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'contain'
-                    }}
-                  />
-                )}
-              </Box>
-            </GraphicsCard>
-          </motion.div>
         </Box>
+      </ContainerWrapper>
+      <ContainerWrapper sx={{ backgroundColor: 'text.primaryDark' }}>
+        <motion.div
+          initial={{ opacity: 0, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.5
+          }}
+          style={{ scale }}
+        >
+          <GraphicsCard sx={{ border: '5px solid', borderColor: 'grey.300', mt: { xs: '75px', sm: '150px' } }}>
+            <Box sx={{ position: 'relative', paddingTop: '56.25%' /* 16:9 aspect ratio */ }}>
+              {videoSrc ? (
+                <iframe
+                  src={videoSrc}
+                  style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    border: '0'
+                  }}
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  title="Vimeo Video"
+                />
+              ) : (
+                <Box
+                  component="img"
+                  src={videoThumbnail} // your thumbnail / fallback
+                  alt="Video thumbnail"
+                  sx={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'contain'
+                  }}
+                />
+              )}
+            </Box>
+          </GraphicsCard>
+        </motion.div>
       </ContainerWrapper>
     </>
   );

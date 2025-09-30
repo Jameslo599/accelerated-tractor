@@ -1,33 +1,34 @@
 export const blogDetail = {
   date: 'Industries',
-  heading: 'Accelerated Tractor Services: Your Expert Partner for Residential Land Clearing',
+  heading: 'Accelerated Tractor Services: Your Expert Partner for Residential Site Prep and Maintenance',
   mainImage: '/assets/images/graphics/default/driveway-a.webp',
   title: 'Why Choose Us?',
   description:
-    "Land has a lot of potential, but it also requires a lot of maintenance, and it’s easy for things to get out of control. If your land is covered in debris and overgrowth, you need a land-clearing team that understands the unique needs and conditions of your area. That's where we come in. As a local company, we have a deep understanding of the terrain, climate, and regulations that may affect your land-clearing project. Our experienced and knowledgeable team uses our experience to craft the perfect solution for your land without compromising on safety or compliance with local regulations. We take the time to understand your needs, assess your land, and develop a plan that will yield the best results. When you need residential land clearing in Dallas, TX, you need Accelerated Tractor Services.",
-  subTitle: 'Our Residential Land Clearing Services',
+    'Land has unlimited potential, but it also requires proper preparation and ongoing maintenance to keep it safe, functional, and ready for use. Whether you’re developing a new property, maintaining an existing site, or restoring neglected land, you need a team that understands the terrain, climate, and regulations of North Texas. That’s where we come in.',
+  subTitle: 'Our Residential Site Prep and Maintenance Services',
   close:
-    'No matter the size or scope of your land-clearing needs, our team has the expertise and equipment to handle it efficiently and effectively. We proudly provide high-quality services that leave our customers satisfied and their land cleared and ready for their next project.',
+    'No matter the size or scope of your site prep and maintenance needs, our team has the expertise and equipment to handle it efficiently and effectively. We proudly provide high-quality services that leave our customers satisfied and their land cleared and ready for their next project.',
   blogDetails: [
     {
-      title: 'Brush Clearing',
-      content:
-        'Our team uses specialized equipment to remove unwanted vegetation and underbrush from your property, leaving it ready for whatever project you have in mind.'
+      title: 'Debris Removal',
+      content: 'We remove materials and debris to create a clean, workable space for construction, farming, or landscaping.'
       // heading1: 'wefewf'
       // dotList: [{ title: 'wfef', description: 'wefwef' }]
     },
     {
-      title: 'Tree Removal',
+      title: 'Grading & Leveling',
       content:
-        'We carefully remove any trees that may be obstructing your residential land. Our team is trained and experienced in safe tree removal techniques to protect both your property and our workers.'
+        'Our team ensures your land has proper slope and drainage by grading and leveling the surface—essential for foundations, driveways, and long-term stability.'
     },
     {
-      title: 'Stump Grinding',
-      content: 'After removing trees, we also offer stump-grinding services to fully clear your land and prevent any future issues.'
+      title: 'Excavation & Utility Preparation',
+      content:
+        'From trenching for water and electrical lines to prepping foundations, we handle the groundwork so your project starts on solid footing.'
     },
     {
-      title: 'Grading and Leveling',
-      content: 'Our team can grade and level your land to ensure proper drainage and a level surface for building or landscaping purposes.'
+      title: 'Erosion & Drainage Control',
+      content:
+        'We install and maintain solutions like swales, culverts, and ditches to prevent flooding, erosion, and costly damage to your property.'
     }
   ]
 };
@@ -36,12 +37,12 @@ export const commercialDetail = {
   date: 'Industries',
   heading: 'Accelerated Tractor Services: Your Expert Partner for Commercial Service',
   mainImage: '/assets/images/graphics/default/grading-a.webp',
-  title: 'What Is Driveway Service?',
+  title: 'Why Choose Us?',
   description:
-    'Driveway Service refers to the process of removing trees, brush, debris, and other obstacles from a commercial property. Depending on your situation, it could also include leveling and other forms of site preparation. Land clearing is crucial for any new construction or development project because it will create a fresh start for you and your land. With a clean patch of land, you and your team can bring your vision to life safely. ',
+    'Land is one of the most valuable assets for any business, but without proper preparation and regular upkeep, it can quickly become a liability. Overgrown brush, uneven terrain, and poor drainage can all stand in the way of your commercial development goals. That’s why you need a site preparation and maintenance team that understands the unique demands of commercial properties. At Accelerated Tractor Services, we combine local expertise with proven methods to deliver reliable, professional results that keep your property safe, compliant, and ready for business.',
   subTitle: 'Benefits of Our Commercial Services',
   close:
-    'No matter the size or scope of your land-clearing needs, our team has the expertise and equipment to handle it efficiently and effectively. We proudly provide high-quality services that leave our customers satisfied and their land cleared and ready for their next project.',
+    'No matter the size or scope of your site prep and maintenance needs, our team has the expertise and equipment to handle it efficiently and effectively. We proudly provide high-quality services that leave our customers satisfied and their land cleared and ready for their next project.',
   blogDetails: [
     {
       title: 'Efficiency',
@@ -414,6 +415,40 @@ export const fence = {
   description:
     'Accelerated Tractor Services can clear your property for fence lines. We utilize rotary cutters and drum mulchers to clean the trees and brush from your planned fence line.',
   subTitle: 'Benefits of Our Fence Line Clearing Services',
+  close:
+    'No matter the size or scope of your land-clearing needs, our team has the expertise and equipment to handle it efficiently and effectively. We proudly provide high-quality services that leave our customers satisfied and their land cleared and ready for their next project.',
+  blogDetails: [
+    {
+      title: 'Efficiency',
+      content: 'With our advanced equipment and experienced team, we can complete commercial land-clearing projects quickly. '
+      // heading1: 'wefewf'
+      // dotList: [{ title: 'wfef', description: 'wefwef' }]
+    },
+    {
+      title: 'Safety',
+      content:
+        'Our team is highly trained to adhere to strict safety protocols, ensuring that the project is completed without any accidents or injuries.'
+    },
+    {
+      title: 'Expertise',
+      content:
+        'We have extensive knowledge and experience in Fence Line Clearing Service, allowing us to handle even the most complex projects with ease. '
+    },
+    {
+      title: 'Cost-Effective',
+      content: 'Our services are competitively priced, and we offer customized solutions to meet your specific needs and budget.'
+    }
+  ]
+};
+
+export const drainage = {
+  date: 'Services',
+  heading: 'Accelerated Tractor Services: Your Expert Partner for Fence Line Clearing Service',
+  mainImage: '/assets/images/graphics/default/drainage/drainage.webp',
+  title: 'What Is Drainage Service?',
+  description:
+    'Proper drainage is essential for protecting your property from water damage, soil erosion, and foundation issues. Our professional drainage services are designed to identify problem areas and implement effective solutions that keep water flowing away from your home or business. Whether it’s installing French drains, grading land for better runoff, or repairing existing drainage systems, our team ensures your property stays safe, dry, and functional year-round. With expert knowledge of local soil and weather conditions, we provide customized drainage solutions that not only protect your investment but also enhance the usability and value of your property.',
+  subTitle: 'Benefits of Our Drainage Services',
   close:
     'No matter the size or scope of your land-clearing needs, our team has the expertise and equipment to handle it efficiently and effectively. We proudly provide high-quality services that leave our customers satisfied and their land cleared and ready for their next project.',
   blogDetails: [

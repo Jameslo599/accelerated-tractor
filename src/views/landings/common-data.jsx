@@ -10,7 +10,7 @@ import branding from '@/branding.json';
 import { MegaMenuType } from '@/enum';
 import { ADMIN_PATH, DOCS_URL, PAGE_PATH, PRIVIEW_PATH } from '@/path';
 
-const linkProps = { target: '_blank', rel: 'noopener noreferrer' };
+const linkProps = { rel: 'noopener noreferrer' };
 
 /***************************  MEGAMENU 4 - FOOTER  ***************************/
 
@@ -122,6 +122,11 @@ export const pagesMegamenu = {
         title: 'Fence Line Clearing',
         image: '/assets/images/graphics/default/fence-line-clearing.webp',
         link: { href: PAGE_PATH.fenceLineClearing, ...linkProps }
+      },
+      {
+        title: 'Drainage',
+        image: '/assets/images/graphics/default/drainage/drainage.webp',
+        link: { href: PAGE_PATH.drainage, ...linkProps }
       }
     ],
     footerData: footerData()

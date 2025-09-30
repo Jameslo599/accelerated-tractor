@@ -22,11 +22,13 @@ import {
   integration,
   other,
   pricing,
-  testimonial
+  testimonial,
+  team
 } from './data';
 import { Gallery4 } from '@/blocks/gallery';
 import { Box } from '@mui/material';
 import ContactUs6 from '@/components/contact-us/ContactUs6';
+import { Team4, Team5 } from '@/blocks/team';
 
 /***************************  PAGE - MAIN  ***************************/
 
@@ -45,7 +47,8 @@ export default function Main() {
         offset="200px"
       />
       {/* <Feature20 {...feature20} /> */}
-      <Gallery4 {...gallery4} />
+      {/* <Gallery4 {...gallery4} /> */}
+      <Team4 {...team} />
       {/* <LazySection
         sections={[
           // { importFunc: () => import('@/blocks/feature').then((module) => ({ default: module.Feature18 })), props: feature18 },

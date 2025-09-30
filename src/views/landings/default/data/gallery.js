@@ -183,3 +183,17 @@ export const removalGallery = {
     { src: '/assets/images/graphics/default/removal/removal6.webp' }
   ]
 };
+
+export const drainageGallery = {
+  heading: 'IMAGE GALLERY',
+  caption: 'Contact Us for North Texas Land Management Services',
+  topics: [],
+  images: [
+    { src: '/assets/images/graphics/default/drainage/drainage.webp' },
+    { src: '/assets/images/graphics/default/drainage/drainage2.webp' },
+    { src: '/assets/images/graphics/default/drainage/drainage3.webp' },
+    { src: '/assets/images/graphics/default/drainage/drainage4.webp' },
+    { src: '/assets/images/graphics/default/drainage/drainage5.webp' },
+    { src: '/assets/images/graphics/default/drainage/drainage6.webp' }
+  ]
+};

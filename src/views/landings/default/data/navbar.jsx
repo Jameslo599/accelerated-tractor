@@ -15,5 +15,7 @@ export const navbar = {
     sx: { minWidth: 40, width: 40, height: 40, p: 0 }
   },
   primaryBtn: { children: 'CONTACT US', href: BUY_NOW_URL, ...linkProps },
-  navItems: [{ id: 'home', title: 'Home', link: '/' }, solutionsMegamenu, pagesMegamenu, { id: 'faq', title: 'FAQS', link: '/faq' }]
+  navItems: [{ id: 'home', title: 'Home', link: '/' }, solutionsMegamenu, pagesMegamenu]
 };
+
+// { id: 'faq', title: 'FAQS', link: '/faq' }
