@@ -4,22 +4,22 @@
 import LazySection from '@/components/LazySection';
 
 // @data
-import { clearingGallery, contactUS, drivewayGallery, driveways } from './data';
+import { rvGallery, contactUS } from './data';
 import ContactUs6 from '@/components/contact-us/ContactUs6';
-import { clearing, fence } from './data/blog-detail';
+import { rv } from './data/blog-detail';
 
 /***************************  PAGE - ABOUT  ***************************/
 
-export default function Clearing() {
+export default function RV() {
   return (
     <>
       <LazySection
         sections={[
           {
             importFunc: () => import('@/blocks/blog-detail').then((module) => ({ default: module.BlogDetails })),
-            props: fence
-          }
-          // { importFunc: () => import('@/blocks/gallery').then((module) => ({ default: module.Gallery1 })), props: clearingGallery }
+            props: rv
+          },
+          { importFunc: () => import('@/blocks/gallery').then((module) => ({ default: module.Gallery1 })), props: rvGallery }
         ]}
         offset="200px"
       />

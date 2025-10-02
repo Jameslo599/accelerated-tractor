@@ -8,7 +8,7 @@ import { SECTION_PATH } from '@/path';
 export const other = {
   heading: `OUR SERVICES`,
   description:
-    'Our expert land clearing contractors use state-of-the-art equipment to prepare your land for development, agriculture, or any project you have in mind. We deliver fast, efficient, and reliable results — giving you a clean slate to build your vision.',
+    'Our expert site management contractors use state-of-the-art equipment to prepare your land for development, maintenance, or any project you have in mind. We deliver fast, efficient, and reliable results — giving you a clean slate to build your vision.',
   primaryBtn: { children: 'CALL US NOW', href: 'tel:+2145325700' },
   sections: [
     {
@@ -25,9 +25,9 @@ export const other = {
     },
     {
       animationDelay: 0.4,
-      title: 'Clearing',
-      image: { light: `${imagePrefix}/clearing2.webp`, dark: `${imagePrefix}/clearing2.webp` },
-      link: `${SECTION_PATH}/clearing`
+      title: 'RV Pads',
+      image: { light: `${imagePrefix}/rv3.webp`, dark: `${imagePrefix}/rv3.webp` },
+      link: `${SECTION_PATH}/rv-pads`
     },
     {
       animationDelay: 0.2,
@@ -73,82 +73,15 @@ export const other = {
     },
     {
       animationDelay: 0.4,
-      title: 'Fence Line Clearing',
-      image: { light: `${imagePrefix}/fence-line-clearing.webp`, dark: `${imagePrefix}/fence-line-clearing.webp` },
-      link: `${SECTION_PATH}/fence-line-clearing`
+      title: 'Tower Pad & Drive',
+      image: { light: `${imagePrefix}/t6.webp`, dark: `${imagePrefix}/t6.webp` },
+      link: `${SECTION_PATH}/tower-pad-drive`
     },
     {
       animationDelay: 0.4,
       title: 'Drainage',
       image: { light: `${imagePrefix}/drainage.webp`, dark: `${imagePrefix}/drainage.webp` },
       link: `${SECTION_PATH}/drainage`
-    }
-  ]
-};
-
-export const other3 = {
-  heading: 'Join a Winning Team',
-  caption: 'Be a part of a winning culture that fosters collaboration, creativity, and success in every career path',
-  other: [
-    {
-      title: 'Product Design',
-      description: 'We’re looking for a mid-level product designer to join our team.',
-      chips: [
-        {
-          icon: 'tabler-map-pin',
-          name: 'Remote'
-        },
-        {
-          icon: 'tabler-history',
-          name: 'Full-Time'
-        }
-      ],
-      btn: { children: 'View Job', href: '#' }
-    },
-    {
-      title: 'Front-End Developer',
-      description: 'We’re looking for a mid-level product designer to join our team.',
-      chips: [
-        {
-          icon: 'tabler-map-pin',
-          name: 'Remote'
-        },
-        {
-          icon: 'tabler-history',
-          name: 'Full-Time'
-        }
-      ],
-      btn: { children: 'View Job', href: '#' }
-    },
-    {
-      title: 'Back-End Developer',
-      description: 'We’re looking for a mid-level product designer to join our team.',
-      chips: [
-        {
-          icon: 'tabler-map-pin',
-          name: 'Remote'
-        },
-        {
-          icon: 'tabler-history',
-          name: 'Full-Time'
-        }
-      ],
-      btn: { children: 'View Job', href: '#' }
-    },
-    {
-      title: 'Scrum Master',
-      description: 'We’re looking for a mid-level product designer to join our team.',
-      chips: [
-        {
-          icon: 'tabler-map-pin',
-          name: 'Remote'
-        },
-        {
-          icon: 'tabler-history',
-          name: 'Full-Time'
-        }
-      ],
-      btn: { children: 'View Job', href: '#' }
     }
   ]
 };

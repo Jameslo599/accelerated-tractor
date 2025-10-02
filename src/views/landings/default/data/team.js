@@ -43,7 +43,7 @@ export const team = {
     {
       name: 'After',
       role: 'Building Pad',
-      avatar: '/assets/images/graphics/default/building-pad-a.webp'
+      avatar: '/assets/images/graphics/default/building-pads.webp'
     },
     {
       name: 'Before',
@@ -97,13 +97,13 @@ export const team = {
     },
     {
       name: 'Before',
-      role: 'Grading',
+      role: 'Driveway',
       avatar: '/assets/images/graphics/default/driveway2-b.webp'
     },
     {
       name: 'After',
-      role: 'Grading',
-      avatar: '/assets/images/graphics/default/driveway2-a.webp'
+      role: 'Driveway',
+      avatar: '/assets/images/graphics/default/driveway/drive13.webp'
     }
   ]
 };

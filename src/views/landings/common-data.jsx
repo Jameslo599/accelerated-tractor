@@ -79,8 +79,8 @@ export const pagesMegamenu = {
       },
       { title: 'Grading', image: '/assets/images/graphics/default/grading.webp', link: { href: PAGE_PATH.grading, ...linkProps } },
       {
-        title: 'Clearing',
-        image: '/assets/images/graphics/default/clearing.webp',
+        title: 'RV Pads',
+        image: '/assets/images/graphics/default/rv-pad/rv3.webp',
         link: { href: PAGE_PATH.clearing, ...linkProps }
       },
       {
@@ -119,8 +119,8 @@ export const pagesMegamenu = {
         link: { href: PAGE_PATH.materialRemoval, ...linkProps }
       },
       {
-        title: 'Fence Line Clearing',
-        image: '/assets/images/graphics/default/fence-line-clearing.webp',
+        title: 'Tower Pad & Drive',
+        image: '/assets/images/graphics/default/tower-pad-drive/t6.webp',
         link: { href: PAGE_PATH.fenceLineClearing, ...linkProps }
       },
       {

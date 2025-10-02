@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic';
 // @project
 import { SEO_CONTENT } from '@/metadata';
 
-const Clearing = dynamic(() => import('@/views/landings/default/clearing'));
+const Tower = dynamic(() => import('@/views/landings/default/tower'));
 
 /***************************  METADATA - CONTACT  ***************************/
 
@@ -11,6 +11,6 @@ const Clearing = dynamic(() => import('@/views/landings/default/clearing'));
 
 /***************************  PAGE - CONTACT  ***************************/
 
-export default function ClearingPage() {
-  return <Clearing />;
+export default function TowerPage() {
+  return <Tower />;
 }

@@ -29,7 +29,7 @@ export const PAGE_PATH = {
   residentialPage: path([MARKET_PATH, 'residential']),
   driveways: path([SECTION_PATH, 'driveways']),
   grading: path([SECTION_PATH, 'grading']),
-  clearing: path([SECTION_PATH, 'clearing']),
+  clearing: path([SECTION_PATH, 'rv-pads']),
   mowing: path([SECTION_PATH, 'mowing']),
   buildingPads: path([SECTION_PATH, 'building-pads']),
   arenas: path([SECTION_PATH, 'arenas']),
@@ -37,7 +37,7 @@ export const PAGE_PATH = {
   demolition: path([SECTION_PATH, 'demolition']),
   leveling: path([SECTION_PATH, 'leveling']),
   materialRemoval: path([SECTION_PATH, 'material-removal']),
-  fenceLineClearing: path([SECTION_PATH, 'fence-line-clearing']),
+  fenceLineClearing: path([SECTION_PATH, 'tower-pad-drive']),
   drainage: path([SECTION_PATH, 'drainage']),
   privacyPolicyPage: '/privacy-policy',
   termsConditionPage: '/terms-condition'

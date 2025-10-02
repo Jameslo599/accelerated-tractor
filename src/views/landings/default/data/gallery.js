@@ -96,19 +96,19 @@ export const gradingGallery = {
   ]
 };
 
-export const clearingGallery = {
+export const rvGallery = {
   heading: 'IMAGE GALLERY',
   caption: 'Contact Us for North Texas Land Management Services',
   topics: [],
   images: [
-    { src: '/assets/images/graphics/default/clearing/clearing.webp' },
-    { src: '/assets/images/graphics/default/clearing/clearing2.webp' },
-    { src: '/assets/images/graphics/default/clearing/clearing3.webp' },
-    { src: '/assets/images/graphics/default/clearing/clearing4.webp' },
-    { src: '/assets/images/graphics/default/clearing/clearing5.webp' },
-    { src: '/assets/images/graphics/default/clearing/clearing6.webp' },
-    { src: '/assets/images/graphics/default/clearing/clearing7.webp' },
-    { src: '/assets/images/graphics/default/clearing/clearing8.webp' }
+    { src: '/assets/images/graphics/default/rv-pad/rv1.webp' },
+    { src: '/assets/images/graphics/default/rv-pad/rv2.webp' },
+    { src: '/assets/images/graphics/default/rv-pad/rv3.webp' },
+    { src: '/assets/images/graphics/default/rv-pad/rv4.webp' },
+    { src: '/assets/images/graphics/default/rv-pad/rv5.webp' },
+    { src: '/assets/images/graphics/default/rv-pad/rv6.webp' },
+    { src: '/assets/images/graphics/default/rv-pad/rv7.webp' },
+    { src: '/assets/images/graphics/default/rv-pad/rv8.webp' }
   ]
 };
 
@@ -181,6 +181,22 @@ export const removalGallery = {
     { src: '/assets/images/graphics/default/removal/removal4.webp' },
     { src: '/assets/images/graphics/default/removal/removal5.webp' },
     { src: '/assets/images/graphics/default/removal/removal6.webp' }
+  ]
+};
+
+export const towerGallery = {
+  heading: 'IMAGE GALLERY',
+  caption: 'Contact Us for North Texas Land Management Services',
+  topics: [],
+  images: [
+    { src: '/assets/images/graphics/default/tower-pad-drive/t1.webp' },
+    { src: '/assets/images/graphics/default/tower-pad-drive/t2.webp' },
+    { src: '/assets/images/graphics/default/tower-pad-drive/t3.webp' },
+    { src: '/assets/images/graphics/default/tower-pad-drive/t4.webp' },
+    { src: '/assets/images/graphics/default/tower-pad-drive/t5.webp' },
+    { src: '/assets/images/graphics/default/tower-pad-drive/t6.webp' },
+    { src: '/assets/images/graphics/default/tower-pad-drive/t7.webp' },
+    { src: '/assets/images/graphics/default/tower-pad-drive/t8.webp' }
   ]
 };
 

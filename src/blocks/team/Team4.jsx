@@ -32,7 +32,7 @@ export default function Team4({ heading, caption, members }) {
   const sliderRef = useRef(null);
 
   const settings = {
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 6000,
     lazyLoad: 'progressive',
     arrows: false,
@@ -42,6 +42,7 @@ export default function Team4({ heading, caption, members }) {
     slidesToShow: 2,
     swipeToSlide: true,
     initialSlide: 0,
+    slidesToScroll: 2,
     responsive: [
       {
         breakpoint: theme.breakpoints.values.md - 1,

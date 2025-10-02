@@ -4,22 +4,22 @@
 import LazySection from '@/components/LazySection';
 
 // @data
-import { clearingGallery, contactUS, drivewayGallery, driveways } from './data';
+import { towerGallery, contactUS } from './data';
 import ContactUs6 from '@/components/contact-us/ContactUs6';
-import { clearing } from './data/blog-detail';
+import { tower } from './data/blog-detail';
 
 /***************************  PAGE - ABOUT  ***************************/
 
-export default function Clearing() {
+export default function Tower() {
   return (
     <>
       <LazySection
         sections={[
           {
             importFunc: () => import('@/blocks/blog-detail').then((module) => ({ default: module.BlogDetails })),
-            props: clearing
+            props: tower
           },
-          { importFunc: () => import('@/blocks/gallery').then((module) => ({ default: module.Gallery1 })), props: clearingGallery }
+          { importFunc: () => import('@/blocks/gallery').then((module) => ({ default: module.Gallery1 })), props: towerGallery }
         ]}
         offset="200px"
       />

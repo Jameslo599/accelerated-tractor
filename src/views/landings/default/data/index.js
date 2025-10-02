@@ -11,13 +11,14 @@ export {
   drivewayGallery,
   gradingGallery,
   mowingGallery,
-  clearingGallery,
+  rvGallery,
   padGallery,
   excavationGallery,
   demoGallery,
   levelGallery,
   removalGallery,
-  drainageGallery
+  drainageGallery,
+  towerGallery
 } from './gallery';
 export { hero, hero10 } from './hero';
 export { integration } from './integration';

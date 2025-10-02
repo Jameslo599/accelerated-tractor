@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic';
 // @project
 import { SEO_CONTENT } from '@/metadata';
 
-const Fence = dynamic(() => import('@/views/landings/default/fence'));
+const RV = dynamic(() => import('@/views/landings/default/rv'));
 
 /***************************  METADATA - CONTACT  ***************************/
 
@@ -11,6 +11,6 @@ const Fence = dynamic(() => import('@/views/landings/default/fence'));
 
 /***************************  PAGE - CONTACT  ***************************/
 
-export default function FencePage() {
-  return <Fence />;
+export default function RVPage() {
+  return <RV />;
 }
