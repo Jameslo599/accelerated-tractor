@@ -137,14 +137,14 @@ export const pagesMegamenu = {
 
 export const solutionsMegamenu = {
   id: 'pages',
-  title: 'Industries',
+  title: 'Divisions',
   megaMenu: {
     type: MegaMenuType.MEGAMENU5,
-    toggleBtn: { children: 'Industries' },
+    toggleBtn: { children: 'Divisions' },
     popperWidth: 860,
     menuItems: [
       {
-        title: 'Industries',
+        title: 'Divisions',
         itemsList: [
           { title: 'Residential', link: { href: PAGE_PATH.residentialPage, ...linkProps } },
           { title: 'Commercial', link: { href: PAGE_PATH.commercialPage, ...linkProps } }

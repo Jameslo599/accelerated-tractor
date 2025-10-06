@@ -3,7 +3,7 @@ function path(urlChunks) {
 }
 
 export const SECTION_PATH = '/services';
-export const MARKET_PATH = '/industries';
+export const MARKET_PATH = '/divisions';
 export const ADMIN_PATH = '#';
 export const BUY_NOW_URL = '/contact';
 export const FREEBIES_URL = '#';

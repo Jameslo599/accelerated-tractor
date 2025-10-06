@@ -19,7 +19,7 @@ export default function LogoMain() {
       src={logoMainPath}
       component="img"
       alt="logo"
-      sx={{ width: { xs: 110, lg: 135 }, height: { xs: 70, lg: 90 } }}
+      sx={{ width: { xs: 150, lg: 195 }, height: { xs: 90, lg: 130 } }}
       loading="lazy"
     />
   ) : (

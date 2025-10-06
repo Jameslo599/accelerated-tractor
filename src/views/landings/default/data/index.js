@@ -23,7 +23,7 @@ export {
 export { hero, hero10 } from './hero';
 export { integration } from './integration';
 export { navbar } from './navbar';
-export { other, other3 } from './other';
+export { other } from './other';
 export { pricing } from './pricing';
 export { smallHero, smallHero1, smallHero4 } from './small-hero';
 export { team } from './team';

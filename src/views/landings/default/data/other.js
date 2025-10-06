@@ -14,7 +14,10 @@ export const other = {
     {
       animationDelay: 0.2,
       title: 'Driveways',
-      image: { light: `${imagePrefix}/driveways2.webp`, dark: `${imagePrefix}/driveways2.webp` },
+      image: {
+        light: `/assets/images/graphics/default/driveway/drive3.webp`,
+        dark: `/assets/images/graphics/default/driveway/drive3.webp`
+      },
       link: `${SECTION_PATH}/driveways`
     },
     {

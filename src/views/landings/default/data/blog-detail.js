@@ -1,7 +1,7 @@
 export const blogDetail = {
-  date: 'Industries',
+  date: 'Divisions',
   heading: 'Accelerated Tractor Services: Your Expert Partner for Residential Site Prep and Maintenance',
-  mainImage: '/assets/images/graphics/default/driveway-a.webp',
+  mainImage: '/assets/images/graphics/default/pads/pad3.webp',
   title: 'Why Choose Us?',
   description:
     'Land has unlimited potential, but it also requires proper preparation and ongoing maintenance to keep it safe, functional, and ready for use. Whether you’re developing a new property, maintaining an existing site, or restoring neglected land, you need a team that understands the terrain, climate, and regulations of North Texas. That’s where we come in.',
@@ -34,9 +34,9 @@ export const blogDetail = {
 };
 
 export const commercialDetail = {
-  date: 'Industries',
+  date: 'Divisions',
   heading: 'Accelerated Tractor Services: Your Expert Partner for Commercial Service',
-  mainImage: '/assets/images/graphics/default/grading-a.webp',
+  mainImage: '/assets/images/graphics/default/tower-pad-drive/t6.webp',
   title: 'Why Choose Us?',
   description:
     'Land is one of the most valuable assets for any business, but without proper preparation and regular upkeep, it can quickly become a liability. Overgrown brush, uneven terrain, and poor drainage can all stand in the way of your commercial development goals. That’s why you need a site preparation and maintenance team that understands the unique demands of commercial properties. At Accelerated Tractor Services, we combine local expertise with proven methods to deliver reliable, professional results that keep your property safe, compliant, and ready for business.',
@@ -70,7 +70,7 @@ export const commercialDetail = {
 export const driveways = {
   date: 'Services',
   heading: 'Accelerated Tractor Services: Your Expert Partner for Driveway Service',
-  mainImage: '/assets/images/graphics/default/driveway-b.webp',
+  mainImage: '/assets/images/graphics/default/driveway/drive3.webp',
   title: 'What Is Driveway Service?',
   description:
     'Accelerated Tractor Services can build or maintain your driveway. We install drainage culverts where needed. We ensure that the driveway is crowned and draining properly. Then we spread flex base gravel (road base) and compact for a long lasting beautiful driveway.',
@@ -104,7 +104,7 @@ export const driveways = {
 export const grading = {
   date: 'Services',
   heading: 'Accelerated Tractor Services: Your Expert Partner for Grading Service',
-  mainImage: '/assets/images/graphics/default/grading-a.webp',
+  mainImage: '/assets/images/graphics/default/grading/grade18.webp',
   title: 'What Is Grading Service?',
   description:
     'Accelerated Tractor Services can grade your property. We have the latest laser equipment to determine grades and proper fall. We then cut or fill, bring in or haul off material, and compact for the surface you need and desire.',
@@ -172,7 +172,7 @@ export const rv = {
 export const mowing = {
   date: 'Services',
   heading: 'Accelerated Tractor Services: Your Expert Partner for Mowing Service',
-  mainImage: '/assets/images/graphics/default/mowing-b.webp',
+  mainImage: '/assets/images/graphics/default/mowing/mowing2.webp',
   title: 'What Is Mowing Service?',
   description:
     'Accelerated Tractor Services can mow your property. We are equipped for all your mowing and shredding needs. Our rotary cutters can handle tall grass, brush, and trees up to 3 inches in diameter if needed.',
@@ -206,7 +206,7 @@ export const mowing = {
 export const pads = {
   date: 'Services',
   heading: 'Accelerated Tractor Services: Your Expert Partner for Building Pad Service',
-  mainImage: '/assets/images/graphics/default/building-pad-b.webp',
+  mainImage: '/assets/images/graphics/default/pads/pad1.webp',
   title: 'What Is Building Pad Service?',
   description:
     'Accelerated Tractor Services can build your pad for your next project. We can read engineers reports and bring in any materials needed to create the pad needed for your build. We cut to depth, bring in proper materials, compact in layers with proper moisture and compaction and top with select fill as needed.',
@@ -274,7 +274,7 @@ export const arenas = {
 export const excavation = {
   date: 'Services',
   heading: 'Accelerated Tractor Services: Your Expert Partner for Excavation Service',
-  mainImage: '/assets/images/graphics/default/excavation.webp',
+  mainImage: '/assets/images/graphics/default/excavation/excavation1.webp',
   title: 'What Is Excavation Service?',
   description:
     'Accelerated Tractor Services can service all your excavation needs, including septic pits, pipelines, foundations, basements, stump removal, etc. From rubber track mini excavators to steel track large excavators, we can dig the hole safely and properly for the project you need.',
@@ -342,7 +342,7 @@ export const demolition = {
 export const leveling = {
   date: 'Services',
   heading: 'Accelerated Tractor Services: Your Expert Partner for Leveling Service',
-  mainImage: '/assets/images/graphics/default/leveling.webp',
+  mainImage: '/assets/images/graphics/default/leveling/level1.webp',
   title: 'What Is Leveling Service?',
   description:
     'Accelerated Tractor Services can level your property, including low spots, ruts, holes, etc. We can take material from your property or bring in the material needed. We fill in the low areas, compact as needed and clean as we go.',
@@ -376,7 +376,7 @@ export const leveling = {
 export const material = {
   date: 'Services',
   heading: 'Accelerated Tractor Services: Your Expert Partner for Material Removal Service',
-  mainImage: '/assets/images/graphics/default/material-removal.webp',
+  mainImage: '/assets/images/graphics/default/removal/removal2.webp',
   title: 'What Is Material Removal Service?',
   description:
     "Accelerated Tractor Services can remove all your unwanted material. We have the equipment for loading and haul off of rock, gravel, dirt, etc. We also remove concrete wash outs on job sites. Don't look at it forever. We can move it today.",

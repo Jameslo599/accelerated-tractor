@@ -10,5 +10,5 @@ export const hero = {
 
 export const hero10 = {
   headLine: 'Residential Land Clearing in Little Elm, Texas',
-  image: '/assets/images/graphics/default/driveway-a.webp'
+  image: '/assets/images/graphics/default/arena.webp'
 };
