@@ -10,7 +10,7 @@ export const contactUS = {
       icon: 'tabler-phone',
       title: 'Contact Office',
       content: 'Speak to a professional',
-      link: { children: 'CONTACT SALES', href: branding.company.socialLink.support, target: '_blank', rel: 'noopener noreferrer' }
+      link: { children: 'CONTACT SUPPORT', href: branding.company.socialLink.support, target: '_blank', rel: 'noopener noreferrer' }
     },
     {
       icon: 'tabler-help-circle',

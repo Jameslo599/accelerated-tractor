@@ -88,16 +88,6 @@ export const team = {
     {
       name: 'Before',
       role: 'Driveway',
-      avatar: '/assets/images/graphics/default/Driveway-b.webp'
-    },
-    {
-      name: 'After',
-      role: 'Driveway',
-      avatar: '/assets/images/graphics/default/Driveway-a.webp'
-    },
-    {
-      name: 'Before',
-      role: 'Driveway',
       avatar: '/assets/images/graphics/default/driveway2-b.webp'
     },
     {

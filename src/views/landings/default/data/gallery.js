@@ -68,7 +68,32 @@ export const drivewayGallery = {
     { src: '/assets/images/graphics/default/driveway/drive41.webp' },
     { src: '/assets/images/graphics/default/driveway/drive42.webp' },
     { src: '/assets/images/graphics/default/driveway/drive43.webp' },
-    { src: '/assets/images/graphics/default/driveway/drive44.webp' }
+    { src: '/assets/images/graphics/default/driveway/drive44.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive47.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive48.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive49.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive50.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive63.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive64.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive66.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive67.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive68.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive69.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive70.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive71.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive72.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive73.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive74.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive75.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive76.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive77.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive78.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive79.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive80.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive81.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive82.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive83.webp' },
+    { src: '/assets/images/graphics/default/driveway/drive84.webp' }
   ]
 };
 
@@ -92,7 +117,10 @@ export const gradingGallery = {
     { src: '/assets/images/graphics/default/grading/grade13.webp' },
     { src: '/assets/images/graphics/default/grading/grade14.webp' },
     { src: '/assets/images/graphics/default/grading/grade15.webp' },
-    { src: '/assets/images/graphics/default/grading/grade16.webp' }
+    { src: '/assets/images/graphics/default/grading/grade16.webp' },
+    { src: '/assets/images/graphics/default/grading/grade17.webp' },
+    { src: '/assets/images/graphics/default/grading/grade18.webp' },
+    { src: '/assets/images/graphics/default/grading/grade19.webp' }
   ]
 };
 

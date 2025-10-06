@@ -97,7 +97,7 @@ export default function ContactUs6({ heading, caption, contactDetails }) {
                     <ContactCard title="Visit us" content={contactDetails.address} />
                   </Grid>
                   <Grid size={{ xs: 12, sm: 6, md: 12 }}>
-                    <ContactCard title="Chat to sales" content={contactDetails.email} link={`mailto:${contactDetails.email}`} />
+                    <ContactCard title="Chat with support" content={contactDetails.email} link={`mailto:${contactDetails.email}`} />
                   </Grid>
                   <Grid size={{ xs: 12, sm: 6, md: 12 }}>
                     <ContactCard title="Call us" content={contactDetails.phone} link={`tel:${contactDetails.phone}`} />
