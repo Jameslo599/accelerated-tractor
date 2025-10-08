@@ -26,12 +26,12 @@ export default function NavbarContent10({ landingBaseUrl, navItems, primaryBtn, 
 
   return (
     <Stack direction="row" sx={{ alignItems: 'center', justifyContent: 'space-between', width: 1 }}>
-      <Logo to={landingBaseUrl} />
       {!downMD && navItems && (
         <Box sx={{ bgcolor: 'grey.200', borderRadius: 10 }}>
           <NavMenu {...{ navItems }} />
         </Box>
       )}
+      <Logo to={landingBaseUrl} />
       <Stack direction="row" sx={{ gap: { xs: 1, md: 1.5 } }}>
         {customization && <Customization />}
         {!downSM && (

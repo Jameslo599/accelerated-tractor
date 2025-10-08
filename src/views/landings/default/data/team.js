@@ -94,6 +94,26 @@ export const team = {
       name: 'After',
       role: 'Driveway',
       avatar: '/assets/images/graphics/default/driveway/drive13.webp'
+    },
+    {
+      name: 'Before',
+      role: 'RV Pad',
+      avatar: '/assets/images/graphics/default/rv-pad/rv1.webp'
+    },
+    {
+      name: 'After',
+      role: 'RV Pad',
+      avatar: '/assets/images/graphics/default/rv-pad/rv3.webp'
+    },
+    {
+      name: 'Before',
+      role: 'Tower Pad',
+      avatar: '/assets/images/graphics/default/tower-pad-drive/t4.webp'
+    },
+    {
+      name: 'After',
+      role: 'Tower Pad',
+      avatar: '/assets/images/graphics/default/tower-pad-drive/t6.webp'
     }
   ]
 };
