@@ -99,7 +99,7 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
           borderBottomRightRadius: boxRadius,
           backgroundImage: 'url(/assets/images/graphics/default/arena.webp)',
           backgroundSize: 'cover',
-          backgroundPosition: 'left',
+          backgroundPosition: 'right',
           backgroundRepeat: 'no-repeat'
         }}
       ></Box>

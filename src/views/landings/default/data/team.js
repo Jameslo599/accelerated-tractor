@@ -114,6 +114,36 @@ export const team = {
       name: 'After',
       role: 'Tower Pad',
       avatar: '/assets/images/graphics/default/tower-pad-drive/t6.webp'
+    },
+    {
+      name: 'Before',
+      role: 'Clearing',
+      avatar: '/assets/images/graphics/default/clearing/clearing3.webp'
+    },
+    {
+      name: 'After',
+      role: 'Clearing',
+      avatar: '/assets/images/graphics/default/clearing/clearing4.webp'
+    },
+    {
+      name: 'Before',
+      role: 'Material Removal',
+      avatar: '/assets/images/graphics/default/removal/removal1.webp'
+    },
+    {
+      name: 'After',
+      role: 'Material Removal',
+      avatar: '/assets/images/graphics/default/removal/removal2.webp'
+    },
+    {
+      name: 'Before',
+      role: 'Grading',
+      avatar: '/assets/images/graphics/default/grading/grade14.webp'
+    },
+    {
+      name: 'After',
+      role: 'Grading',
+      avatar: '/assets/images/graphics/default/grading/grade16.webp'
     }
   ]
 };
