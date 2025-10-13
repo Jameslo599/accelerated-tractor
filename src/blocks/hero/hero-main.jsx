@@ -114,7 +114,7 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
           borderBottomLeftRadius: boxRadius,
           borderBottomRightRadius: boxRadius,
           bgcolor: '#000000',
-          opacity: '50%'
+          opacity: '20%'
         }}
       ></Box>
       <ContainerWrapper sx={{ py: SECTION_COMMON_PY, minHeight: { xs: 592, sm: 738, md: 878 } }}>

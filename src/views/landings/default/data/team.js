@@ -7,6 +7,16 @@ export const team = {
   members: [
     {
       name: 'Before',
+      role: 'Building Pad',
+      avatar: '/assets/images/graphics/default/building-pad-b.webp'
+    },
+    {
+      name: 'After',
+      role: 'Building Pad',
+      avatar: '/assets/images/graphics/default/building-pads.webp'
+    },
+    {
+      name: 'Before',
       role: 'Driveway',
       avatar: '/assets/images/graphics/default/driveway-b.webp'
     },
@@ -34,16 +44,6 @@ export const team = {
       name: 'After',
       role: 'Mowing',
       avatar: '/assets/images/graphics/default/mowing-a.webp'
-    },
-    {
-      name: 'Before',
-      role: 'Building Pad',
-      avatar: '/assets/images/graphics/default/building-pad-b.webp'
-    },
-    {
-      name: 'After',
-      role: 'Building Pad',
-      avatar: '/assets/images/graphics/default/building-pads.webp'
     },
     {
       name: 'Before',
