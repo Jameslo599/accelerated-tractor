@@ -87,7 +87,7 @@ const iconProps = { color: 'text.secondary' };
 const usefulLinks = [
   {
     title: branding.brandName,
-    href: null
+    href: '/'
   },
   {
     title: '(214)-532-5700',

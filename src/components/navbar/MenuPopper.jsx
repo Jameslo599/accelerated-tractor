@@ -49,6 +49,7 @@ export default function MenuPopper({
       <Button
         ref={anchorRef}
         aria-describedby={id}
+        aria-label="hamburger button"
         onClick={handleClick}
         size="small"
         {...toggleProps}
