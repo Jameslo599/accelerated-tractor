@@ -7,7 +7,7 @@ const Pads = dynamic(() => import('@/views/landings/default/pads'));
 
 /***************************  METADATA - CONTACT  ***************************/
 
-// export const metadata = { ...SEO_CONTENT.contactUs };
+export const metadata = { ...SEO_CONTENT.buildingPads };
 
 /***************************  PAGE - CONTACT  ***************************/
 

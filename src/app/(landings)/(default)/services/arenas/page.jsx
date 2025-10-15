@@ -7,7 +7,7 @@ const Arenas = dynamic(() => import('@/views/landings/default/arenas'));
 
 /***************************  METADATA - CONTACT  ***************************/
 
-// export const metadata = { ...SEO_CONTENT.contactUs };
+export const metadata = { ...SEO_CONTENT.arenas };
 
 /***************************  PAGE - CONTACT  ***************************/
 

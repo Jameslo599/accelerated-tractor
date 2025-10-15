@@ -7,7 +7,7 @@ const Grading = dynamic(() => import('@/views/landings/default/grading'));
 
 /***************************  METADATA - CONTACT  ***************************/
 
-// export const metadata = { ...SEO_CONTENT.contactUs };
+export const metadata = { ...SEO_CONTENT.grading };
 
 /***************************  PAGE - CONTACT  ***************************/
 

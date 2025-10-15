@@ -7,7 +7,7 @@ const Excavation = dynamic(() => import('@/views/landings/default/excavation'));
 
 /***************************  METADATA - CONTACT  ***************************/
 
-// export const metadata = { ...SEO_CONTENT.contactUs };
+export const metadata = { ...SEO_CONTENT.excavation };
 
 /***************************  PAGE - CONTACT  ***************************/
 

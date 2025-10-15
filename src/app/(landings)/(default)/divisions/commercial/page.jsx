@@ -7,7 +7,7 @@ const Commercial = dynamic(() => import('@/views/landings/default/commercial'));
 
 /***************************  METADATA - CONTACT  ***************************/
 
-// export const metadata = { ...SEO_CONTENT.contactUs };
+export const metadata = { ...SEO_CONTENT.commercial };
 
 /***************************  PAGE - CONTACT  ***************************/
 

@@ -7,7 +7,7 @@ const Mowing = dynamic(() => import('@/views/landings/default/mowing'));
 
 /***************************  METADATA - CONTACT  ***************************/
 
-// export const metadata = { ...SEO_CONTENT.contactUs };
+export const metadata = { ...SEO_CONTENT.mowing };
 
 /***************************  PAGE - CONTACT  ***************************/
 

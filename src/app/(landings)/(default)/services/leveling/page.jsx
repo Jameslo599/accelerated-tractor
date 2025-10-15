@@ -7,7 +7,7 @@ const Leveling = dynamic(() => import('@/views/landings/default/leveling'));
 
 /***************************  METADATA - CONTACT  ***************************/
 
-// export const metadata = { ...SEO_CONTENT.contactUs };
+export const metadata = { ...SEO_CONTENT.leveling };
 
 /***************************  PAGE - CONTACT  ***************************/
 

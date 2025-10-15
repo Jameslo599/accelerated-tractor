@@ -260,7 +260,6 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
                     border: '0'
                   }}
                   allow="autoplay; fullscreen; picture-in-picture"
-                  allowFullScreen
                   title="Vimeo Video"
                 />
               ) : (

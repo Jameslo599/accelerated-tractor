@@ -7,7 +7,7 @@ const Tower = dynamic(() => import('@/views/landings/default/tower'));
 
 /***************************  METADATA - CONTACT  ***************************/
 
-// export const metadata = { ...SEO_CONTENT.contactUs };
+export const metadata = { ...SEO_CONTENT.towerPad };
 
 /***************************  PAGE - CONTACT  ***************************/
 

@@ -7,7 +7,7 @@ const Material = dynamic(() => import('@/views/landings/default/material'));
 
 /***************************  METADATA - CONTACT  ***************************/
 
-// export const metadata = { ...SEO_CONTENT.contactUs };
+export const metadata = { ...SEO_CONTENT.materialRemoval };
 
 /***************************  PAGE - CONTACT  ***************************/
 

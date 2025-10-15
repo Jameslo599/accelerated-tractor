@@ -7,7 +7,7 @@ const Demolition = dynamic(() => import('@/views/landings/default/demolition'));
 
 /***************************  METADATA - CONTACT  ***************************/
 
-// export const metadata = { ...SEO_CONTENT.contactUs };
+export const metadata = { ...SEO_CONTENT.demolition };
 
 /***************************  PAGE - CONTACT  ***************************/
 

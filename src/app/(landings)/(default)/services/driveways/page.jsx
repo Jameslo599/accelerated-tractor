@@ -7,7 +7,7 @@ const Driveways = dynamic(() => import('@/views/landings/default/driveways'));
 
 /***************************  METADATA - CONTACT  ***************************/
 
-// export const metadata = { ...SEO_CONTENT.contactUs };
+export const metadata = { ...SEO_CONTENT.driveways };
 
 /***************************  PAGE - CONTACT  ***************************/
 

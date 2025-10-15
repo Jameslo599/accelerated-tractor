@@ -8,10 +8,7 @@ const TermsCondition = dynamic(() => import('@/views/landings/default/terms-cond
 
 /***************************  METADATA - TERMS CONDITION  ***************************/
 
-export const metadata = {
-  ...SEO_CONTENT.termsCondition,
-  openGraph: { ...SEO_CONTENT.termsCondition, url: PAGE_PATH.termsConditionPage }
-};
+export const metadata = { ...SEO_CONTENT.termsCondition };
 
 /*************************** PAGE - TERMS CONDITION ***************************/
 

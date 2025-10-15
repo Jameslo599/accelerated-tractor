@@ -7,7 +7,7 @@ const Drainage = dynamic(() => import('@/views/landings/default/drainage'));
 
 /***************************  METADATA - CONTACT  ***************************/
 
-// export const metadata = { ...SEO_CONTENT.contactUs };
+export const metadata = { ...SEO_CONTENT.drainage };
 
 /***************************  PAGE - CONTACT  ***************************/
 
