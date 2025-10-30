@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 // @style
 import './globals.css';
@@ -24,6 +25,8 @@ export const metadata = { ...mainMetadata };
 
 // Root layout component that wraps the entire application
 export default function RootLayout({ children }) {
+  const GA_MEASUREMENT_ID = 'G-NJ3PHVPF5G';
+
   return (
     <html lang="en">
       <head>
@@ -35,6 +38,7 @@ export default function RootLayout({ children }) {
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <ProviderWrapper>{children}</ProviderWrapper>
         </AppRouterCacheProvider>
+        <GoogleAnalytics GA_MEASUREMENT_ID={GA_MEASUREMENT_ID} />
       </body>
     </html>
   );

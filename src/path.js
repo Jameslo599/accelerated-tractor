@@ -19,10 +19,6 @@ export const PAGE_PATH = {
   error404: path([SECTION_PATH, 'error404']),
   error500: path([SECTION_PATH, 'error500']),
   underMaintenance: path([MARKET_PATH, 'under-maintenance']),
-
-  // pages path
-  // aboutPage: '/about',
-  // careerPage: '/career',
   contactPage: '/contact',
   faqPage: '/faq',
   commercialPage: path([MARKET_PATH, 'commercial']),
@@ -41,6 +37,10 @@ export const PAGE_PATH = {
   drainage: path([SECTION_PATH, 'drainage']),
   privacyPolicyPage: '/privacy-policy',
   termsConditionPage: '/terms-condition'
+
+  // pages path
+  // aboutPage: '/about',
+  // careerPage: '/career',
 };
 
 export const PRIVIEW_PATH = {
